@@ -4,13 +4,16 @@ import '../Common/Styles.scss';
 import { speakersDetails } from '../Homepage/AllState.js'
 import IndivSpeaker from '../Homepage/IndivSpeaker';
 const lightBackArrow = require('../Common/images/back-arrow-light.svg');
+
 const darkBackArrow = require('../Common/images/back-arrow-dark.svg');
+
 const SpeakersList = props => {
   const speakersListState = speakersDetails.map((speakers, index) => {
     return (
       <IndivSpeaker key={index} speakers={speakers} />
     )
   })
+
   return (
     <div className='speakersWrapper sectionWrapper removePaddTop'>
       <div className='speakersHeader'>

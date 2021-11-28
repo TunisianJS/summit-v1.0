@@ -2,6 +2,7 @@ import React, {Fragment} from "react";
 import {Link} from 'gatsby';
 import '../Common/Styles.scss';
 const arrow = require('../Common/images/arrow.svg');
+
 const IndivSpeaker = ({speakers}) => {
   return (
     <div className='speakersList threeColumsList'>
