@@ -4,11 +4,8 @@ import '../Common/Styles.scss';
 import MarketoForm from '../Common/marketoform';
 const marketoHost = 'https://page.hasura.io';
 
-const submitBtnIcon = require('../Common/images/submit-btn-icon.svg');
 
-const submitBtnIconHover = require('../Common/images/submit-btn-icon-hover.svg');
 
-const btnPattern = require('../Common/images/btn-pattern.svg');
 
 const checkIcon = require('../Common/images/check-icon.svg');
 

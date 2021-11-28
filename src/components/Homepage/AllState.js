@@ -84,15 +84,9 @@ const scheduleDetailsTwo = [
   },
 ];
 
-const workshopScheduleDetails = [];
-
-const workshopScheduleDetailsTwo = [];
-
 export {
   speakersDetails,
   talkDetailsPage,
   scheduleDetailsOne,
-  scheduleDetailsTwo,
-  workshopScheduleDetails,
-  workshopScheduleDetailsTwo,
+  scheduleDetailsTwo
 };

@@ -3,8 +3,8 @@ import {Link} from 'gatsby';
 import '../Common/Styles.scss';
 import { speakersDetails } from './AllState.js'
 import IndivSpeaker from './IndivSpeaker';
-const submitBtnIcon = require('../Common/images/submit-btn-icon.svg');
-const submitBtnIconHover = require('../Common/images/submit-btn-icon-hover.svg');
+
+
 const Speakers = props => {
   const speakersList = speakersDetails.map((speakers, index) => {
     return (
@@ -17,6 +17,7 @@ const Speakers = props => {
       </Fragment>
     )
   })
+
   return (
     <div id='speakers' className='speakersWrapper sectionWrapper removePaddBottom'>
       <div className='speakersHeader'>

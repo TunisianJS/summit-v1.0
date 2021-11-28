@@ -3,8 +3,8 @@ import {Link} from 'gatsby';
 import '../Common/Styles.scss';
 import IndivTalk from './IndivTalk';
 import { talkDetailsPage } from '../Homepage/AllState.js'
-const arrow = require('../Common/images/arrow.svg');
-const star = require('../Common/images/star.svg');
+
+
 const Talks = props => {
   return (
     <div id='talks' className={'sectionWrapper removePaddBottom ' + ((props.wdClass) ? ' wd80' : '')}>

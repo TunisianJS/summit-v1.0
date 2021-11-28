@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import { Header } from './Header';
 import { TopBanner } from './TopBanner';
-import { Workshops } from './Workshops';
 import { Talks } from './Talks';
 import { Footer } from './Footer';
 import { Thankyou } from './Thankyou';
@@ -46,7 +45,6 @@ export const MarketingPage = ({ location }) => {
       <div id="viewport" className="darkModeLayout advertisement-site-wrapper">
         <Header isMobile={isMobile} />
         <TopBanner isMobile={isMobile} />
-        <Workshops />
         <Talks />
         <Footer />
       </div>

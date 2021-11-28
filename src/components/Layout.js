@@ -8,13 +8,9 @@ const patternDark = require('./Common/images/pattern-dark.svg');
 
 const patternLight = require('./Common/images/pattern-light.svg');
 
-const darkIconDarkMode = require('./Common/images/dark-icon-dark-mode.svg');
 
-const lightIconDarkMode = require('./Common/images/light-icon-dark-mode.svg');
 
-const darkIconLightMode = require('./Common/images/dark-icon-light-mode.svg');
 
-const lightIconLightMode = require('./Common/images/light-icon-light-mode.svg');
 
 const footerPattern = require('./Common/images/footer-pattern.svg');
 
@@ -78,23 +74,7 @@ const Layout = ({ children, location }) => {
     }
   };
 
-  const removeDarkMode = () => {
-    if (typeof window !== undefined) {
-      window.localStorage.setItem('lightModeConsent', 'true');
-      if ('localStorage' in window && window.localStorage && 'getItem' in window.localStorage) {
-        setIsLightMode(true);
-      }
-    }
-  };
 
-  const setDarkMode = () => {
-    if (typeof window !== undefined) {
-      window.localStorage.setItem('lightModeConsent', 'false');
-      if ('localStorage' in window && window.localStorage && 'getItem' in window.localStorage) {
-        setIsLightMode(false);
-      }
-    }
-  };
 
   const path = location.pathname;
 
@@ -153,22 +133,6 @@ const Layout = ({ children, location }) => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="modeChangeWrapper">
-          <img
-            onClick={() => {
-              removeDarkMode();
-            }}
-            src={!isLightMode ? lightIconDarkMode : lightIconLightMode}
-            alt="icon"
-          />
-          <img
-            onClick={() => {
-              setDarkMode();
-            }}
-            src={!isLightMode ? darkIconDarkMode : darkIconLightMode}
-            alt="icon"
-          />
         </div>
         <div className="mainGridWrapper">
           <div>

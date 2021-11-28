@@ -3,23 +3,33 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Link } from 'gatsby';
 import IconHover from '../Common/IconHover';
 const copyDarkMode = require('../Common/images/copy-dark-mode.svg');
+
 const whatsappDarkMode = require('../Common/images/whatsapp-dark-mode.svg');
+
 const linkedinDarkMode = require('../Common/images/linkedin-dark-mode.svg');
+
 const twitterDarkMode = require('../Common/images/twitter-dark-mode.svg');
 
 const copyLightMode = require('../Common/images/copy-light-mode.svg');
+
 const whatsappLightMode = require('../Common/images/whatsapp-light-mode.svg');
+
 const linkedinLightMode = require('../Common/images/linkedin-light-mode.svg');
+
 const twitterLightMode = require('../Common/images/twitter-light-mode.svg');
 
 const star = require('../Common/images/star.svg');
+
 const add = require('../Common/images/add.svg');
+
 const ThankyouTopBanner = props => {
   const [isCopied, setIsCopiedToggle] = useState(false);
+
   const onCopy = () => {
     setIsCopiedToggle(true);
     setTimeout(() => setIsCopiedToggle(false), 3000);
   };
+
   const renderCopyIcon = () => {
     if (isCopied) {
       return (
@@ -28,6 +38,7 @@ const ThankyouTopBanner = props => {
     }
     return null;
   };
+
   return (
 
     <div className="registerWrapper landingThankWrapper">
@@ -123,4 +134,5 @@ const ThankyouTopBanner = props => {
     </div>
   );
 }
+
 export default ThankyouTopBanner;
