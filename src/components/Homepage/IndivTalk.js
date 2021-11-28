@@ -2,7 +2,9 @@ import React, {Fragment} from "react";
 import {Link} from 'gatsby';
 import '../Common/Styles.scss';
 const arrow = require('../Common/images/arrow.svg');
+
 const star = require('../Common/images/star.svg');
+
 const IndivTalk = ({talksList}) => {
   return (
     <li>
