@@ -29,17 +29,6 @@ exports.onCreatePage = async ({ page, actions }) => {
     });
   });
 
-  workshopDetailsPage.forEach((workshop, index) => {
-    createPage({
-      path: workshop,
-      component: path.resolve(`./src/components/DetailsPage/WorkshopDetailsPage.js`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: workshop,
-      },
-    });
-  });
 };
 
 exports.onCreateWebpackConfig = ({ stage, rules, loaders, plugins, actions }) => {

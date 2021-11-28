@@ -1,9 +1,9 @@
 {
-  "name": "graphql-asia",
+  "name": "summit-v1.0",
   "private": true,
-  "description": "GraphQL Asia 2021 Website",
+  "description": "Tunisia Js Community summit-v1.0 2021 Website",
   "version": "0.1.0",
-  "author": "Praveen <praveen@hasura.io>",
+  "author": "",
   "dependencies": {
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
@@ -56,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hasura/graphql-asia"
+    "url": "https://github.com/TunisianJS/summit-v1.0"
   },
   "bugs": {
-    "url": "https://github.com/hasura/graphql-asia/issues"
+    "url": "https://github.com/TunisianJS/summit-v1.0/issues"
   }
 }

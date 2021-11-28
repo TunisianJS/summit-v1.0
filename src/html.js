@@ -6,7 +6,7 @@ export default class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes} lang="en-us">
         <head>
-          <title>GraphQL Asia 2021</title>
+          <title>Tunisian Js Community Summit 2021</title>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
