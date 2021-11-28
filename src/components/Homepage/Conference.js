@@ -1,10 +1,12 @@
 import React from "react";
 import '../Common/Styles.scss';
 const lightArrow = require('../Common/images/light-arrow.svg');
+
 const darkArrow = require('../Common/images/dark-arrow.svg');
 
 
 const lightArrowLine = require('../Common/images/light-arrow-line.svg');
+
 const darkarrowLine = require('../Common/images/dark-arrow-line.svg');
 
 const Conference = props => {

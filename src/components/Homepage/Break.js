@@ -1,6 +1,7 @@
 import React from "react";
 import '../Common/Styles.scss';
 const star = require('../Common/images/star.svg');
+
 const Break = ({breakDetails}) => {
   return (
     <li className='breakWrapper scheduleList'>

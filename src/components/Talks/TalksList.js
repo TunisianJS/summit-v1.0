@@ -4,7 +4,9 @@ import '../Common/Styles.scss';
 import { talkDetailsPage } from '../Homepage/AllState.js'
 import IndivTalk from '../Homepage/IndivTalk';
 const lightBackArrow = require('../Common/images/back-arrow-light.svg');
+
 const darkBackArrow = require('../Common/images/back-arrow-dark.svg');
+
 const TalksList = props => {
   const talkListState = talkDetailsPage.map((talksList, index) => {
     return (
@@ -18,6 +20,7 @@ const TalksList = props => {
 
     )
   })
+
   return (
     <div id='workshops' className={'sectionWrapper removePaddTop' + ((props.wdClass) ? ' wd80' : '')}>
       <div className='workshopWrapper'>
