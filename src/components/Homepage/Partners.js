@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import '../Common/Styles.scss';
 const reactBangaloreDark = require('../Common/images/react-bangalore-dark.svg');
 
@@ -32,7 +32,6 @@ const graphqlCopenhagenLight = require('../Common/images/graphql-copenhagen-ligh
 
 const graphqlAmsterdamLight = require('../Common/images/graphql-amsterdam-light.svg');
 
-
 const atlassianLight = require('../Common/images/atlassian-light.svg');
 
 const atlassianDark = require('../Common/images/atlassian-dark.svg');
@@ -65,81 +64,51 @@ const stackhawkDark = require('../Common/images/stackhawk-dark.png');
 
 const stackhawkLight = require('../Common/images/stackhawk-light.png');
 
-
-
-const Partners = props => {
+const Partners = (props) => {
   return (
     <div>
-      <div id='sponsorship' className={'communityPartnersWrapper sectionWrapper ' + ((!props.isLightMode) ? 'darkModeBorBottom' : 'lightModeBorBottom')}>
-        <div className='articleSubTitle'>Sponsors</div>
-        <div className='partnersBrandWrapper partnersBrandWrapperDisplay'>
-          <a href='https://www.atlassian.com/' target='_blank' rel='noopener noreferrer'>
-            <img className='wd70' src={(!props.isLightMode) ? atlassianDark : atlassianLight} alt='React bangalore' />
-          </a>
-          <a href='https://www.yugabyte.com/' target='_blank' rel='noopener noreferrer'>
-            <img className='yugabite' src={(!props.isLightMode) ? yugabyteDark : yugabyteLight} alt='React bangalore' />
-          </a>
-          <a href='https://www.stackhawk.com/' target='_blank' rel='noopener noreferrer'>
-            <img className='yugabite' src={(!props.isLightMode) ? stackhawkDark : stackhawkLight} alt='React bangalore' />
-          </a>
-        </div>
-        {/*
+      <div
+        id="sponsorship"
+        className={
+          'communityPartnersWrapper sectionWrapper ' +
+          (!props.isLightMode ? 'darkModeBorBottom' : 'lightModeBorBottom')
+        }
+      >
+        <div className="articleSubTitle">Sponsors</div>
+
+        {
         <div className='communityPartnersHeader'>
           <div className='articleSectionTitle'>
-            If you are interested in sponsoring GraphQL Asia, reach out to Harsha at <a href='mailto:events@hasura.io'>events@hasura.io</a>
-          </div>
-          <div className='buttonWrapper alignSelfEnd'>
-            <a href="/GQLA-Sponsorship-brochure.pdf" download>
-              <button className='commonBtn darkBtn'>
-                <img className='submitIcon' src={download} alt='Icon' />
-                <img className='submitIconHover' src={downloadHover} alt='Icon' />
-                Download Brochure
-              </button>
+          <p>
+            For this event, there are no sponsors,  <br />
+            but if would you like to support a growing JS community in Tunisia and improve the
+            visibility of your tech/employer brand?
+
+            reach out to Tunisia Js Community at {` `}
+            <a href="mailto:contact@js-community.tn">
+               contact@js-community.tn
             </a>
+          </p>
           </div>
         </div>
-        */}
+        }
       </div>
-      <div id='community-partners' className={'communityPartnersWrapper sectionWrapper ' + ((!props.isLightMode) ? 'darkModeBorBottom' : 'lightModeBorBottom')}>
-        <div className='articleSubTitle'>Community Partners</div>
-        <div className='partnersBrandWrapper'>
-          <a href='https://twitter.com/ReactBangalore' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? reactBangaloreDark : reactBangaloreLight} alt='React bangalore' />
-          </a>
-          <a href='https://twitter.com/WWCodeManila' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? womenCodeDark : womenCodeLight} alt='Women code' />
-          </a>
-          <a href='https://www.meetup.com/GraphQL-SG/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? graphqlSingaporDark : graphqlSingaporLight} alt='GraphQL singapore' />
-          </a>
-          <a href='https://www.meetup.com/graphql-bangalore/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? graphQLBangaloreDark : graphQLBangaloreLight} alt='GraphQL bangalore' />
-          </a>
-          <a href='https://www.meetup.com/jslovers/' target='_blank' rel='noopener noreferrer'>
-            <img className='wd80' src={(!props.isLightMode) ? jsDark : jsLight} alt='JS' />
-          </a>
-          <a href='https://www.meetup.com/GraphQL-Sydney/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? graphqlSydneyDark : graphqlSydneyLight} alt='GraphQL sydney' />
-          </a>
-          <a href='https://www.meetup.com/Amsterdam-GraphQL-Meetup/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? graphqlAmsterdamDark : graphqlAmsterdamLight} alt='GraphQL sydney' />
-          </a>
-          <a href='https://www.meetup.com/Copenhagen-GraphQL-Meetup-Group/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? graphqlCopenhagenDark : graphqlCopenhagenLight} alt='GraphQL sydney' />
+      <div
+        id="community-partners"
+        className={
+          'communityPartnersWrapper sectionWrapper ' +
+          (!props.isLightMode ? 'darkModeBorBottom' : 'lightModeBorBottom')
+        }
+      >
+        <div className="articleSubTitle">Community Partners</div>
+        <div className="partnersBrandWrapper">
+          <a href="https://twitter.com/ReactBangalore" target="_blank" rel="noopener noreferrer">
+            <img
+              src={!props.isLightMode ? reactBangaloreDark : reactBangaloreLight}
+              alt="React bangalore"
+            />
           </a>
 
-          <a href='https://www.meetup.com/GraphQL-Bangkok/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? graphqlBangkokDark : graphqlBangkokLight} alt='GraphQL sydney' />
-          </a>
-          <a href='https://reactjs.org.ph/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? reactPhilippinesDark : reactPhilippinesLight} alt='GraphQL sydney' />
-          </a>
-          <a href='https://www.meetup.com/React-Delhi-NCR/' target='_blank' rel='noopener noreferrer'>
-            <img src={(!props.isLightMode) ? reactDelhiDark : reactDelhiLight} alt='GraphQL sydney' />
-          </a><br/>
-          <a href='https://www.meetup.com/pl-PL/GraphQL-Wroclaw/' className='twoColumn' target='_blank' rel='noopener noreferrer'>
-            <img  className='wd80' src={(!props.isLightMode) ? graphqlWroclawDark : graphqlWroclawLight} alt='GraphQL sydney' />
-          </a>
         </div>
       </div>
     </div>
