@@ -84,7 +84,7 @@ const Layout = ({ children, location }) => {
       : false;
 
   return (
-    <div id="viewport" className={!isLightMode ? 'darkModeLayout' : 'lightModeLayout'}>
+    <div id="viewport" className='lightModeLayout'>
       <div className="mainWrapper">
         {isPattern ? (
           <img className="pattern" src={!isLightMode ? patternDark : patternLight} alt="Pattern" />

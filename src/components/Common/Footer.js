@@ -28,15 +28,15 @@ const Footer = ({isLightMode}) => {
   return (
     <div className='footerWrapper sectionWrapper removePaddBottom'>
       <ul className='articleDesc'>
-        <li className={((!isLightMode) ? 'darkModeBorRight' : 'lightModeBorRight')}><a href='mailto:events@hasura.io'>Sponsor GraphQL Asia 2021</a></li>
-        <li><a href='mailto:'>Contact us</a></li>
+        <li className={((!isLightMode) ? 'darkModeBorRight' : 'lightModeBorRight')}><a href='mailto:contact@js-community.tn'>Sponsor Tunisia Js Community 2021</a></li>
+        <li><a href='mailto:contact@js-community.tn'>Contact us</a></li>
       </ul>
       <div className='articleDesc'>
         © {(new Date().getFullYear())} Tunisian Js Community. All rights reserved
       </div>
       <div className='footerLogoWrapper'>
         <div className='poweredLogo'>
-          <a href='https://hasura.io/'><img src={(!isLightMode) ? poweredLogoDarkMode : poweredLogoLightMode} alt='Powered Logo' /></a>
+          <a href='https://js-community.tn/'><img src={(!isLightMode) ? poweredLogoDarkMode : poweredLogoLightMode} alt='Powered Logo' /></a>
         </div>
         <div className='socialIconWrapper'>
           <a href='https://discord.com/invite/hasura' target='_blank' rel='noopener noreferrer'>
@@ -46,14 +46,14 @@ const Footer = ({isLightMode}) => {
               altText = 'Discord'
             />
           </a>
-          <a href='https://www.linkedin.com/company/graphql-asia' target='_blank' rel='noopener noreferrer'>
+          <a href='https://www.linkedin.com/company/tunisian-javascript-community' target='_blank' rel='noopener noreferrer'>
             <IconHover
               baseImgSrc = {(!isLightMode) ? linkedinDarkMode : linkedinLightMode}
               hoverImgSrc = {linkedinHover}
               altText = 'Discord'
             />
           </a>
-          <a href='https://twitter.com/graphqlasia' target='_blank' rel='noopener noreferrer'>
+          <a href='https://twitter.com/TunisisJs' target='_blank' rel='noopener noreferrer'>
             <IconHover
               baseImgSrc = {(!isLightMode) ? twitterDarkMode: twitterLightMode}
               hoverImgSrc = {twitterHover}

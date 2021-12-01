@@ -52,7 +52,7 @@ const ThankyouTopBanner = props => {
             <img src={star} alt="Star" />
             <span>
               Check your inbox for a confirmation email. If you have not got one, please email
-              Harsha at <a href="mailto:events@hasura.io">events@hasura.io</a> with the subject
+              Harsha at <a href="mailto:contact@js-community.tn">events@hasura.io</a> with the subject
               line <span className="redColor">”GQLA 2021 Registration Error“</span>.
             </span>
           </li>

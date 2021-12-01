@@ -15,7 +15,7 @@ export const Footer = () => {
           <ul className="articleDesc flex">
             <li className="darkModeBorRight" style={{ paddingRight: '15px', marginRight: '15px' }}>
               <a
-                href="https://hasura.io/legal/website-terms-of-use"
+                href="https://js-community.tn/legal/website-terms-of-use"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -24,7 +24,7 @@ export const Footer = () => {
             </li>
             <li className="darkModeBorRight" style={{ paddingRight: '15px', marginRight: '15px' }}>
               <a
-                href="https://hasura.io/legal/hasura-privacy-policy/"
+                href="https://js-community.tn/legal/hasura-privacy-policy/"
                 target="_blank"
                 rel="noreferrer"
               >
