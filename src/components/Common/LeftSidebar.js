@@ -39,7 +39,8 @@ const LeftSidebar = ({isLightMode, location}) => {
         </Link>
       </div>
       <div className='articleDesc redColor fontBold'>
-        24th & 25th Feb
+        11th & 12th Dec <br />
+        18th & 19th Dec <br />
       </div>
       <ul className='articleDesc'>
         <li className={((path === '/speakers/') ? 'active' : '')}><Link to='/speakers/'>Speakers</Link></li>
