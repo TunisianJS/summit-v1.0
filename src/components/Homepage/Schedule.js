@@ -79,10 +79,10 @@ const Schedule = props => {
           </div>
         </div>
         <div className='dateTab'>
-          <button onClick={()=>{setDayTab('dayOne');}} className={'commonBtn ' + ((dayTab === 'dayOne' ) ? 'darkBlockBtn' : 'transparentBtn')}>24th Feb</button>
+          <button onClick={()=>{setDayTab('dayOne');}} className={'commonBtn ' + ((dayTab === 'dayOne' ) ? 'darkBlockBtn' : 'transparentBtn')}>11th Dec</button>
           {
             currentTab === 'talks' ? (
-              <button onClick={()=>{setDayTab('dayTwo')}} className={'commonBtn ' + ((dayTab === 'dayTwo') ? 'darkBlockBtn' : 'transparentBtn')}>25th Feb</button>
+              <button onClick={()=>{setDayTab('dayTwo')}} className={'commonBtn ' + ((dayTab === 'dayTwo') ? 'darkBlockBtn' : 'transparentBtn')}>12th Dec</button>
             ) : null
           }
           

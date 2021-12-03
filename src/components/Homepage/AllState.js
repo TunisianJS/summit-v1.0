@@ -10,6 +10,8 @@ const haykel = require('../Common/images/haykel.jpg');
 
 const nacer = require('../Common/images/nacer.jpg');
 
+const walid = require('../Common/images/valid.jpeg');
+
 const speakersDetails = [
   {
     talkPageUrl: '/talks/in-mem-sub-pub-with-mufa/',
@@ -56,6 +58,18 @@ const speakersDetails = [
         Enhanced developer experience with Nx.
         <br />
         CTO at xTECH
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/kubernetes-runtime-security-using-falco/',
+    speakersName: 'Walid Dridi',
+    speakersImg: walid,
+    speakersDesignation: (
+      <span>
+        Kubernetes Runtime Security using Falco.
+        <br />
+        DevOps/SRE at Radio France
       </span>
     ),
   },
@@ -222,6 +236,42 @@ const talkDetailsPage = [
   ],
 },
 {
+  url: '/talks/kubernetes-runtime-security-using-falco/',
+  metaTags: {
+    title: 'Kubernetes Runtime Security using Falco.',
+    canonicalUrl: '',
+    description: 'Coming Soon',
+    metaImg: '',
+  },
+  title: 'Kubernetes Runtime Security using Falco.',
+  speakersTitle: 'About the speakers',
+  backLink: '/talks/',
+  language: 'English',
+  time: '08:00 am -	08:30 am',
+  talkType: 'Chat',
+  description: [
+    {
+      desc: 'Coming Soon',
+    },
+  ],
+  multipleSpeakers: 'Speakers',
+  speakersList: [
+    {
+      speakersUrl: '/speakers/walid-dridi/',
+      speakersName: 'Walid Dridi',
+      speakersImg: walid,
+      speakersBio: 'He is a Kubernetes Consultant/Trainer and CKAD/CKA/CKS Certified. He is interested in cloud-native and software engineering techniques applied to operations.',
+      speakersDesignation: (
+        <span>
+        Kubernetes Runtime Security using Falco.
+        <br />
+        DevOps/SRE at Radio France
+      </span>
+      ),
+    },
+  ],
+},
+{
   url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
   metaTags: {
     title: 'SOLID principles between theory and practice in JavaScript.',
@@ -257,7 +307,6 @@ const talkDetailsPage = [
     },
   ],
 },
-
 ];
 
 
@@ -288,9 +337,14 @@ const scheduleDetailsTwo = [
     title: 'Day 2 Begins',
     time: '07:55 am',
   },
+  
   {
     url: '/talks/enhanced-developer-experience-with-nx/',
     type: 'talk',
+  },
+  {
+    url: '/talks/kubernetes-runtime-security-using-falco/',
+    type: 'talk'
   },
   {
     url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',

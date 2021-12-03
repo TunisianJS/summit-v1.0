@@ -28,6 +28,8 @@ const poweredLogoLightMode = require('./images/powered-logo-light-mode.svg');
 
 const poweredLogoDarkMode = require('./images/powered-logo-dark-mode.svg');
 
+const tunJsCommunity = require('./images/tun-js-community.png');
+
 const LeftSidebar = ({isLightMode, location}) => {
   const path = location.pathname;
 
@@ -35,7 +37,9 @@ const LeftSidebar = ({isLightMode, location}) => {
     <div className='leftSidebarWrapper'>
       <div className='brand'>
         <Link to='/'>
-          <img src={(!isLightMode) ? brandDarkMode : brandLightMode} alt='Brand' />
+          {/*
+          <img src={tunJsCommunity} alt='Brand' />*/}
+          logo
         </Link>
       </div>
       <div className='articleDesc redColor fontBold'>
@@ -52,7 +56,7 @@ const LeftSidebar = ({isLightMode, location}) => {
       </ul>
       <div className='leftSidebarFooterWrapper'>
         <div className='poweredBrand'>
-          <a href='https://js-community.tn/'><img src={(!isLightMode) ? poweredLogoDarkMode : poweredLogoLightMode} alt='Powered Logo' /></a>
+logo
         </div>
         <div className='socialIconWrapper'>
           <a href='https://discord.com/invite/' target='_blank' rel='noopener noreferrer'>

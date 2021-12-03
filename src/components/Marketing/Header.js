@@ -14,14 +14,15 @@ export const Header = ({ isMobile }) => {
             <Link to='/'>
               <img src={gqlaImg} alt="graphql-asia" id="gqla-logo" />
             </Link>
-            <div className="articleDesc redColor fontBold">24th &amp; 25th Feb</div>
+            <div className="articleDesc redColor fontBold">24th &amp; 12th Dec</div>
           </div>
           <div className="poweredBrand col-md-2 flex flex-end noPadd">
-            <img src={hasuraLogo} alt="Powered Logo" />
+logo           
+          
           </div>
         </div>
         <div className="mainHeading col-md-12 noPadd">Asia&apos;s largest GraphQL Conf is back</div>
-        <p>24th & 25th Feb | Online | Free</p>
+        <p>24th & 12th Dec | Online | Free</p>
         <div className='mobile-signup-form-wrapper'>
           <RegisterForm title='Register Now'/>
         </div>
@@ -35,7 +36,7 @@ export const Header = ({ isMobile }) => {
         <Link to='/'>
           <img src={gqlaImg} alt="graphql-asia" id="gqla-logo" />
         </Link>
-        <div className="articleDesc redColor fontBold">24th &amp; 25th Feb</div>
+        <div className="articleDesc redColor fontBold">24th &amp; 12th Dec</div>
       </div>
       <div className="mainHeading col-md-7 noPadd pr-20">
         Asia&apos;s largest GraphQL Conf is back

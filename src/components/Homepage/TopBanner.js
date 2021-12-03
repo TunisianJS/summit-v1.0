@@ -25,33 +25,18 @@ const TopBanner = (props) => {
     <div className="topBannerWrapper sectionWrapperBottom">
       <div className="mainTitle">Tunisia Js Community Conf is Back</div>
       <div className="articleSectionTitle">
-        Join us on 24th & 25th Feb for the third edition of GraphQL Asia happening online and free!
-        And this time we're accepting talks & workshops in multiple Asian languages.
+        Join us on 11th & 12th Dec for the fist edition of Tunisian Js summit
+         happening online and free!
+        And this time we{`'`}re accepting talks.
       </div>
-      { isAliId ? (
-        <div className={'checkMailWrapper articleDesc ' + ((!props.isLightMode) ? 'darkModeBorder' : 'lightModeBorder')}>
-          <img src={checkIcon} alt='check icon' />
-          Check your Email inbox for the video link
-        </div>
-      ) : (
-        <MarketoForm
-          formId="1165"
-          marketoHost={marketoHost}
-          id="631-HMN-492"
-          styleClass="marketoFormWrapper subscribeNewsletterForm"
-        />
-      )
-      }
-      {/*
+   
+      {
       <div className="buttonWrapper">
-        <Link to="/register/">
+        <Link to="">
           <button className="commonBtn darkBtn">Register Now</button>
         </Link>
-        <Link to="/login/">
-          <button className="commonBtn lightBtn ml-20">Login</button>
-        </Link>
       </div>
-      */}
+      /**/}
     </div>
   );
 };

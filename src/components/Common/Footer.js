@@ -36,7 +36,7 @@ const Footer = ({isLightMode}) => {
       </div>
       <div className='footerLogoWrapper'>
         <div className='poweredLogo'>
-          <a href='https://js-community.tn/'><img src={(!isLightMode) ? poweredLogoDarkMode : poweredLogoLightMode} alt='Powered Logo' /></a>
+            logo            
         </div>
         <div className='socialIconWrapper'>
           <a href='https://discord.com/invite/hasura' target='_blank' rel='noopener noreferrer'>

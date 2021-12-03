@@ -40,12 +40,12 @@ const Layout = ({ children, location }) => {
         const lightModeConsent = window.localStorage.getItem('lightModeConsent');
 
         if (lightModeConsent === null) {
-          return false;
-        } else if (lightModeConsent === 'true') {
+          return true;
+        } /*else if (lightModeConsent === 'true') {
           return true;
         } else {
           return false;
-        }
+        }*/
       }
     }
     return false;
