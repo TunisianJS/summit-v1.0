@@ -221,13 +221,6 @@ const talkDetailsPage = [
     },
   ],
 },
-/*
-- Full Name: Nacer Nsiri
-- Current Job: 
-- Talk Title: 
-- Bio: He has held various positions across his 7 years career such as Technical Lead and Senior Software engineer Frontend, Backend, and Fullstack, has a Node.js certification from OpenJS - The Linux Foundation, always sharing knowledge and assisting coworkers, always looking for challenges, striving for continuous self-improvement.
-*/
-
 {
   url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
   metaTags: {
@@ -252,7 +245,7 @@ const talkDetailsPage = [
     {
       speakersUrl: '/speakers/nacer-nsiri/',
       speakersName: 'Nacer Nsiri',
-      speakersImg: haykel,
+      speakersImg: nacer,
       speakersBio: 'He has held various positions across his 7 years career such as Technical Lead and Senior Software engineer Frontend, Backend, and Fullstack, has a Node.js certification from OpenJS - The Linux Foundation, always sharing knowledge and assisting coworkers, always looking for challenges, striving for continuous self-improvement.',
       speakersDesignation: (
         <span>
@@ -287,15 +280,6 @@ const scheduleDetailsOne = [
     url: '/talks/an-arabic-version-of-javascript/',
     type: 'talk',
   },
-  {
-    url: '/talks/enhanced-developer-experience-with-nx/',
-    type: 'talk',
-  },
-  {
-    url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
-    type: 'talk',
-  },
-  
 ];
 
 const scheduleDetailsTwo = [
@@ -303,6 +287,14 @@ const scheduleDetailsTwo = [
     type: 'break',
     title: 'Day 2 Begins',
     time: '07:55 am',
+  },
+  {
+    url: '/talks/enhanced-developer-experience-with-nx/',
+    type: 'talk',
+  },
+  {
+    url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
+    type: 'talk',
   },
 ];
 
