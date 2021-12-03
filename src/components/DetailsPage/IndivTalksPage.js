@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from 'gatsby';
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import '../Common/Styles.scss';
@@ -48,8 +48,8 @@ const IndivTalksPage = props => {
                   props.currentDetailsPage.speakersList.map((name, index) => {
                     return (
                       <Fragment key={index}>
-                        { name.speakersName }
-                        { index < (props.currentDetailsPage.speakersList.length - 1) ? ', ' : '' }
+                        {name.speakersName}
+                        {index < (props.currentDetailsPage.speakersList.length - 1) ? ', ' : ''}
                       </Fragment>
                     )
                   })
@@ -205,7 +205,7 @@ const IndivTalksPage = props => {
                             {speakers.speakersName}
                           </div>
                           <div className='articleDesc fontBold'>
-                            {speakers.speakersDesignation}
+                            [should put the current job title here]
                           </div>
                           {
                             speakers.speakersBio ? (
@@ -231,9 +231,9 @@ const IndivTalksPage = props => {
             <CopyToClipboard text={`https://js-community.tn/${props.currentDetailsPage.url}`} onCopy={onCopy}>
               <div className='shareIcon'>
                 <IconHover
-                  baseImgSrc = {(!props.isLightMode) ? copyDarkMode: copyLightMode}
-                  hoverImgSrc = {copyHover}
-                  altText = 'Discord'
+                  baseImgSrc={(!props.isLightMode) ? copyDarkMode : copyLightMode}
+                  hoverImgSrc={copyHover}
+                  altText='Discord'
                 />
                 {renderCopyIcon()}
               </div>
@@ -242,14 +242,14 @@ const IndivTalksPage = props => {
               href={
                 `https://wa.me/?text=https://js-community.tn/${props.currentDetailsPage.url}`
               }
-               data-action="share/whatsapp/share"
+              data-action="share/whatsapp/share"
             >
-            <IconHover
-              baseImgSrc = {(!props.isLightMode) ? whatsappDarkMode: whatsappLightMode}
-              hoverImgSrc = {whatsappHover}
-              altText = 'Discord'
-            />
-          </a>
+              <IconHover
+                baseImgSrc={(!props.isLightMode) ? whatsappDarkMode : whatsappLightMode}
+                hoverImgSrc={whatsappHover}
+                altText='Discord'
+              />
+            </a>
             <a className='shareIcon'
               href={
                 `https://twitter.com/intent/tweet?&text=${props.currentDetailsPage.title}&url=https://js-community.tn/${props.currentDetailsPage.url}`
@@ -258,22 +258,22 @@ const IndivTalksPage = props => {
               rel="noopener noreferrer"
             >
               <IconHover
-                baseImgSrc = {(!props.isLightMode) ? twitterDarkMode: twitterLightMode}
-                hoverImgSrc = {twitterHover}
-                altText = 'Discord'
+                baseImgSrc={(!props.isLightMode) ? twitterDarkMode : twitterLightMode}
+                hoverImgSrc={twitterHover}
+                altText='Discord'
               />
             </a>
             <a className='shareIcon'
-               href={
-                  `http://www.linkedin.com/shareArticle?mini=true&url=https://js-community.tn/${props.currentDetailsPage.url}&title=${props.currentDetailsPage.title}&summary=${props.currentDetailsPage.title}&source=https://js-community.tn/${props.currentDetailsPage.url}`
-                }
-                target="_blank"
-                rel="noopener noreferrer"
+              href={
+                `http://www.linkedin.com/shareArticle?mini=true&url=https://js-community.tn/${props.currentDetailsPage.url}&title=${props.currentDetailsPage.title}&summary=${props.currentDetailsPage.title}&source=https://js-community.tn/${props.currentDetailsPage.url}`
+              }
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IconHover
-                baseImgSrc = {(!props.isLightMode) ? linkedinDarkMode : linkedinLightMode}
-                hoverImgSrc = {linkedinHover}
-                altText = 'Discord'
+                baseImgSrc={(!props.isLightMode) ? linkedinDarkMode : linkedinLightMode}
+                hoverImgSrc={linkedinHover}
+                altText='Discord'
               />
             </a>
           </div>
