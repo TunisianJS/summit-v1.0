@@ -11,7 +11,7 @@ const talkDetailsPage = [
   '/talks/an-arabic-version-of-javascript/',
   '/talks/enhanced-developer-experience-with-nx/',
   '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
-  'talks/kubernetes-runtime-security-using-falco/'
+  '/talks/kubernetes-runtime-security-using-falco/'
 ];
 
 
