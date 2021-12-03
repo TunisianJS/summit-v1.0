@@ -191,6 +191,7 @@ const talkDetailsPage = [
         speakersName: 'Burawi Ben Ammar',
         speakersImg: burawi,
         speakersBio: 'He is a developer that companies call senior because he has experience of 8 years in web development and a Node.js certification from OpenJS - The Linux Foundation.',
+        speakerJob: 'Senior Full Stack Developer at Think-it',
         speakersDesignation: (
           <span>
             An Arabic version of Javascript. Why ?
@@ -227,6 +228,7 @@ const talkDetailsPage = [
         speakersName: 'Haykel Ben Jemia',
         speakersImg: haykel,
         speakersBio: 'He wrote his first line of code at 15 years old using BASIC and never stopped writing code since then. He is still passionate about software development, more specifically developing full stack web applications using JavaScript and serverless technologies.',
+        speakerJob: 'CTO at xTECH',
         speakersDesignation: (
           <span>
             Enhanced developer experience with Nx.
@@ -263,6 +265,7 @@ const talkDetailsPage = [
         speakersName: 'Walid Dridi',
         speakersImg: walid,
         speakersBio: 'He is a Kubernetes Consultant/Trainer and CKAD/CKA/CKS Certified. He is interested in cloud-native and software engineering techniques applied to operations.',
+        speakerJob: 'DevOps/SRE at Radio France',
         speakersDesignation: (
           <span>
             Kubernetes Runtime Security using Falco.
@@ -299,6 +302,7 @@ const talkDetailsPage = [
         speakersName: 'Nacer Nsiri',
         speakersImg: nacer,
         speakersBio: 'He has held various positions across his 7 years career such as Technical Lead and Senior Software engineer Frontend, Backend, and Fullstack, has a Node.js certification from OpenJS - The Linux Foundation, always sharing knowledge and assisting coworkers, always looking for challenges, striving for continuous self-improvement.',
+        speakerJob: 'Senior FrontEnd Engineer at Oodrive',
         speakersDesignation: (
           <span>
             SOLID principles between theory and practice in JavaScript.

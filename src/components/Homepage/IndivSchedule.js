@@ -46,8 +46,7 @@ const IndivSchedule = ({ indivTalks }) => {
                               {speakers.speakersName}
                             </div>
                             <div className='articleDesc'>
-                              {/* {speakers.speakersDesignation} */}
-                              [should put the current job title here * 2]
+                              {speakers.speakerJob}
                             </div>
                           </div>
                         </div>
