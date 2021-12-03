@@ -10,7 +10,8 @@ const talkDetailsPage = [
   '/talks/nestjs-the-trendy-nodejs-framework/',
   '/talks/an-arabic-version-of-javascript/',
   '/talks/enhanced-developer-experience-with-nx/',
-  '/talks/solid-principles-between-theory-and-practice-in-javaScript/'
+  '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
+  'talks/kubernetes-runtime-security-using-falco/'
 ];
 
 
