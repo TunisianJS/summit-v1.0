@@ -68,9 +68,6 @@ const LeftSidebar = ({ isLightMode, location }) => {
           <Link to="/#schedule">Schedule</Link>
         </li>
         <li>
-          <Link to="/jobs/">Jobs</Link>
-        </li>
-        <li>
           <Link to="/#sponsorship">Sponsors</Link>
         </li>
         <li>
