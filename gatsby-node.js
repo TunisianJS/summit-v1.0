@@ -6,12 +6,13 @@
 // You can delete this file if you're not using it
 
 const talkDetailsPage = [
-  '/talks/talk-1/',
-  '/talks/nestjs-the-trendy-nodejs-framework/'
+  '/talks/in-mem-sub-pub-with-mufa/',
+  '/talks/nestjs-the-trendy-nodejs-framework/',
+  '/talks/an-arabic-version-of-javascript/',
+  '/talks/enhanced-developer-experience-with-nx/',
+  '/talks/solid-principles-between-theory-and-practice-in-javaScript/'
 ];
 
-const workshopDetailsPage = [
-]
 
 const path = require("path");
 
