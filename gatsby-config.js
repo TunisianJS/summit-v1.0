@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tunisian Js Communit Summit 2021`,
+    title: `Tunisian JS Communit Summit 2021`,
     description:
       'Tunisian Js community is the largest gathering of the Js community in Tunisia!',
     author: `@TunisianJS`,
