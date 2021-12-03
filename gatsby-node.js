@@ -7,6 +7,7 @@
 
 const talkDetailsPage = [
   '/talks/talk-1/',
+  '/talks/nestjs-the-trendy-nodejs-framework/'
 ];
 
 const workshopDetailsPage = [
