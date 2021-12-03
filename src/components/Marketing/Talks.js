@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import workshopBulletIcon from './images/workshop_bullet.svg';
 import { talkDetailsPage } from '../Homepage/AllState.js'
 export const Talks = () => {
@@ -22,7 +22,10 @@ export const Talks = () => {
                               <img src={speakers.speakersImg} alt={speakers.speakersName} className="speaker-img" />
                               <div className="flex flex-column speaker-details">
                                 <h2>{speakers.speakersName}</h2>
-                                <p>{speakers.speakersDesignation}</p>
+                                <p>
+                                  {/* {speakers.speakersDesignation} */}
+                                  [should put the current job title here * 3]
+                                </p>
                               </div>
                             </div>
                           ))}

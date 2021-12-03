@@ -1,9 +1,9 @@
-import React, {Fragment} from "react";
-import {Link} from 'gatsby';
+import React, { Fragment } from "react";
+import { Link } from 'gatsby';
 import '../Common/Styles.scss';
 const arrow = require('../Common/images/arrow.svg');
 
-const IndivSpeaker = ({speakers}) => {
+const IndivSpeaker = ({ speakers }) => {
   return (
     <div className='speakersList threeColumsList'>
       <Link to={speakers.talkPageUrl}>
@@ -16,7 +16,8 @@ const IndivSpeaker = ({speakers}) => {
               {speakers.speakersName}
             </div>
             <div className='articleDesc fontBold500'>
-              {speakers.speakersDesignation}
+              {/* {speakers.speakersDesignation} */}
+              [should put the current job title here * 1]
             </div>
           </div>
           <div className='speakerArrow'>
