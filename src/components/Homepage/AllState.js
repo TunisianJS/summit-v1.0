@@ -104,7 +104,7 @@ const talkDetailsPage = [
     backLink: '/talks/',
     language: 'Arabic',
     time: '08:00 am -	08:30 am',
-    talkType: '',
+    talkType: undefined,
     description: [
       {
         desc: 'Coming Soon',
@@ -140,7 +140,7 @@ const talkDetailsPage = [
     backLink: '/talks/',
     language: 'Arabic',
     time: '08:00 am -	08:30 am',
-    talkType: '',
+    talkType: undefined,
     description: [
       {
         desc: 'Coming Soon',
@@ -176,7 +176,7 @@ const talkDetailsPage = [
     backLink: '/talks/',
     language: 'Arabic',
     time: '08:00 am -	08:30 am',
-    talkType: '',
+    talkType: undefined,
     description: [
       {
         desc: 'Coming Soon',
@@ -212,7 +212,7 @@ const talkDetailsPage = [
     backLink: '/talks/',
     language: 'Arabic',
     time: '08:00 am -	08:30 am',
-    talkType: '',
+    talkType: undefined,
     description: [
       {
         desc: 'Coming Soon',
@@ -248,7 +248,7 @@ const talkDetailsPage = [
     backLink: '/talks/',
     language: 'Arabic',
     time: '08:00 am -	08:30 am',
-    talkType: '',
+    talkType: undefined,
     description: [
       {
         desc: 'Coming Soon',
@@ -284,7 +284,7 @@ const talkDetailsPage = [
     backLink: '/talks/',
     language: 'Arabic',
     time: '08:00 am -	08:30 am',
-    talkType: '',
+    talkType: undefined,
     description: [
       {
         desc: 'Coming Soon',
