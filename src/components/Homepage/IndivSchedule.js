@@ -1,19 +1,19 @@
-import React, {Fragment} from "react";
-import {Link} from 'gatsby';
+import React, { Fragment } from "react";
+import { Link } from 'gatsby';
 import '../Common/Styles.scss';
 const arrow = require('../Common/images/arrow.svg');
 
 const star = require('../Common/images/star.svg');
 
-const IndivSchedule = ({indivTalks}) => {
+const IndivSchedule = ({ indivTalks }) => {
   return (
     <li>
       <Link to={indivTalks.url} className='scheduleList'>
         <div className='time articleDesc'>
           {indivTalks.time ? indivTalks.time : ''}
           <div className='istBtnMobile articleDesc fontBold'>
-            IST
-            <div className='istBtnHover'>Indian Standard Time</div>
+            CET <smal>(UTC +1)</smal>
+            <div className='istBtnHover'>Tunisia Time</div>
           </div>
         </div>
         <div className='scheduleDetailsWrapper'>
