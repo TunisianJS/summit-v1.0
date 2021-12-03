@@ -228,7 +228,7 @@ const IndivTalksPage = props => {
             {props.currentDetailsPage.isWorkshop ? 'Share this workshop' : 'Share this talk'}
           </div>
           <div className='shareIconWrapper'>
-            <CopyToClipboard text={`https://graphql.asia/${props.currentDetailsPage.url}`} onCopy={onCopy}>
+            <CopyToClipboard text={`https://js-community.tn/${props.currentDetailsPage.url}`} onCopy={onCopy}>
               <div className='shareIcon'>
                 <IconHover
                   baseImgSrc = {(!props.isLightMode) ? copyDarkMode: copyLightMode}
@@ -240,7 +240,7 @@ const IndivTalksPage = props => {
             </CopyToClipboard>
             <a className='shareIcon'
               href={
-                `https://wa.me/?text=https://graphql.asia/${props.currentDetailsPage.url}`
+                `https://wa.me/?text=https://js-community.tn/${props.currentDetailsPage.url}`
               }
                data-action="share/whatsapp/share"
             >
@@ -252,7 +252,7 @@ const IndivTalksPage = props => {
           </a>
             <a className='shareIcon'
               href={
-                `https://twitter.com/intent/tweet?&text=${props.currentDetailsPage.title}&url=https://graphql.asia/${props.currentDetailsPage.url}`
+                `https://twitter.com/intent/tweet?&text=${props.currentDetailsPage.title}&url=https://js-community.tn/${props.currentDetailsPage.url}`
               }
               target="_blank"
               rel="noopener noreferrer"
@@ -265,7 +265,7 @@ const IndivTalksPage = props => {
             </a>
             <a className='shareIcon'
                href={
-                  `http://www.linkedin.com/shareArticle?mini=true&url=https://graphql.asia/${props.currentDetailsPage.url}&title=${props.currentDetailsPage.title}&summary=${props.currentDetailsPage.title}&source=https://graphql.asia/${props.currentDetailsPage.url}`
+                  `http://www.linkedin.com/shareArticle?mini=true&url=https://js-community.tn/${props.currentDetailsPage.url}&title=${props.currentDetailsPage.title}&summary=${props.currentDetailsPage.title}&source=https://js-community.tn/${props.currentDetailsPage.url}`
                 }
                 target="_blank"
                 rel="noopener noreferrer"

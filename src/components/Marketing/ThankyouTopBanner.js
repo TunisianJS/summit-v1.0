@@ -80,7 +80,7 @@ const ThankyouTopBanner = props => {
             Invite your friends
           </div>
           <div className='shareIconWrapper'>
-            <CopyToClipboard text={`https://graphql.asia/`} onCopy={onCopy}>
+            <CopyToClipboard text={`https://js-community.tn/`} onCopy={onCopy}>
               <div className='shareIcon'>
                 <IconHover
                   baseImgSrc = {copyDarkMode}
@@ -92,7 +92,7 @@ const ThankyouTopBanner = props => {
             </CopyToClipboard>
             <a className='shareIcon'
               href={
-                `https://wa.me/?text=https://graphql.asia/`
+                `https://wa.me/?text=https://js-community.tn/`
               }
                data-action="share/whatsapp/share"
             >
@@ -104,7 +104,7 @@ const ThankyouTopBanner = props => {
           </a>
             <a className='shareIcon'
               href={
-                `https://twitter.com/intent/tweet?&text=Super excited to be attending GraphQL Asia 2021! Join me there #GraphQL&url=https://graphql.asia/`
+                `https://twitter.com/intent/tweet?&text=Super excited to be attending GraphQL Asia 2021! Join me there #GraphQL&url=https://js-community.tn/`
               }
               target="_blank"
               rel="noopener noreferrer"
@@ -117,7 +117,7 @@ const ThankyouTopBanner = props => {
             </a>
             <a className='shareIcon'
                href={
-                  `http://www.linkedin.com/shareArticle?mini=true&url=https://graphql.asia/&title=Super excited to be attending GraphQL Asia 2021! Join me there #GraphQL&summary=Super excited to be attending GraphQL Asia 2021! Join me there #GraphQL&source=https://graphql.asia/`
+                  `http://www.linkedin.com/shareArticle?mini=true&url=https://js-community.tn/&title=Super excited to be attending GraphQL Asia 2021! Join me there #GraphQL&summary=Super excited to be attending GraphQL Asia 2021! Join me there #GraphQL&source=https://js-community.tn/`
                 }
                 target="_blank"
                 rel="noopener noreferrer"
