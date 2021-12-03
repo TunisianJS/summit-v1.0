@@ -315,7 +315,7 @@ const scheduleDetailsOne = [
   {
     type: 'break',
     title: 'Conference Begins',
-    time: '10:25 am',
+    time: '6:00 pm',
   },
   {
     url: '/talks/in-mem-sub-pub-with-mufa/',
@@ -326,7 +326,7 @@ const scheduleDetailsOne = [
     type: 'talk',
   },
   {
-    url: '/talks/an-arabic-version-of-javascript/',
+    url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
     type: 'talk',
   },
 ];
@@ -335,26 +335,39 @@ const scheduleDetailsTwo = [
   {
     type: 'break',
     title: 'Day 2 Begins',
-    time: '07:55 am',
+    time: '6:00 pm',
   },
-
   {
     url: '/talks/enhanced-developer-experience-with-nx/',
     type: 'talk',
   },
   {
+    url: '/talks/an-arabic-version-of-javascript/',
+    type: 'talk',
+  },
+
+];
+
+const scheduleDetailsThree = [
+  // Azza Hamadani
+  // Khaled Garbaya
+  // Zied Unes
+]
+
+const scheduleDetailsFour = [
+  // Walid Dridi
+  {
     url: '/talks/kubernetes-runtime-security-using-falco/',
     type: 'talk'
   },
-  {
-    url: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
-    type: 'talk',
-  },
-];
+  // Haythem Jerbi
+]
 
 export {
   speakersDetails,
   talkDetailsPage,
   scheduleDetailsOne,
-  scheduleDetailsTwo
+  scheduleDetailsTwo,
+  scheduleDetailsThree,
+  scheduleDetailsFour
 };
