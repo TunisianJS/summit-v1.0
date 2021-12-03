@@ -1,10 +1,11 @@
-import React, {Fragment, useState} from "react";
-import {Link} from 'gatsby';
+import React, { Fragment, useState } from "react";
+import { Link } from 'gatsby';
 import Break from './Break';
 import IndivSchedule from './IndivSchedule';
 import '../Common/Styles.scss';
-import { talkDetailsPage, scheduleDetailsOne, scheduleDetailsTwo
-  } from '../Homepage/AllState.js'
+import {
+  talkDetailsPage, scheduleDetailsOne, scheduleDetailsTwo
+} from '../Homepage/AllState.js'
 
 
 const talksLight = require('../Common/images/talks-light.svg');
@@ -57,7 +58,7 @@ const Schedule = props => {
         <div className='scheduleHeader'>
           <div className='articleSubTitle'>Schedule</div>
           <div className='buttonWrapper'>
-            <button onClick={()=>{setCurrentTab('talks');setDayTab('dayOne')}} className={'commonBtn ' + ((currentTab === 'talks') ? 'darkRedBtn' : 'transparentBtn')}>
+            <button onClick={() => { setCurrentTab('talks'); setDayTab('dayOne') }} className={'commonBtn ' + ((currentTab === 'talks') ? 'darkRedBtn' : 'transparentBtn')}>
               {
                 !props.isLightMode ? (
                   <img src={talksLight} alt='Icon' />
@@ -79,30 +80,22 @@ const Schedule = props => {
           </div>
         </div>
         <div className='dateTab'>
-          <button onClick={()=>{setDayTab('dayOne');}} className={'commonBtn ' + ((dayTab === 'dayOne' ) ? 'darkBlockBtn' : 'transparentBtn')}>11th Dec</button>
+          <button onClick={() => { setDayTab('dayOne'); }} className={'commonBtn ' + ((dayTab === 'dayOne') ? 'darkBlockBtn' : 'transparentBtn')}>11th Dec</button>
           {
             currentTab === 'talks' ? (
-              <button onClick={()=>{setDayTab('dayTwo')}} className={'commonBtn ' + ((dayTab === 'dayTwo') ? 'darkBlockBtn' : 'transparentBtn')}>12th Dec</button>
+              <button onClick={() => { setDayTab('dayTwo') }} className={'commonBtn ' + ((dayTab === 'dayTwo') ? 'darkBlockBtn' : 'transparentBtn')}>12th Dec</button>
             ) : null
           }
-          
+
         </div>
         <ul className='scheduleListHeader scheduleListWrapper removeBorBottom'>
           <li className='scheduleList'>
             <div className='time articleSectionTitle fontBold'>
               TIME
               <div className='istBtn articleDesc fontBold'>
-                IST
-                <div className='istBtnHover'>Indian Standard Time</div>
+                CET <smal>(UTC +1)</smal>
+                <div className='istBtnHover'>Tunisia Time</div>
               </div>
-              {/*
-              <CopyToClipboard text='Indian Standard Time' onCopy={onCopy}>
-                <div className='istBtn articleDesc fontBold'>
-                  IST
-                </div>
-                {renderCopyIcon()}
-              </CopyToClipboard>
-              */}
             </div>
             <div className='scheduleDetailsWrapper'>
               <div className='time articleSectionTitle fontBold'>

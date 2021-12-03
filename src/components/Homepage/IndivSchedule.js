@@ -22,9 +22,9 @@ const IndivSchedule = ({ indivTalks }) => {
               {indivTalks.title}
             </div>
             <div className='talkTypes'>
-              <div className='talkBtn articleDesc'>
+              {indivTalks.talkType && <div className='talkBtn articleDesc'>
                 {indivTalks.talkType}
-              </div>
+              </div>}
               <div className='talkBtn articleDesc'>
                 {indivTalks.language}
               </div>
