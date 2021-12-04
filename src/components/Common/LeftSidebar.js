@@ -103,14 +103,14 @@ const LeftSidebar = ({ location }) => {
             <IconHover
               baseImgSrc={linkedinLightMode}
               hoverImgSrc={linkedinHover}
-              altText="Discord"
+              altText="Linkedin"
             />
           </a>
           <a href="https://twitter.com/TunisisJs" target="_blank" rel="noopener noreferrer">
             <IconHover
               baseImgSrc={twitterLightMode}
               hoverImgSrc={twitterHover}
-              altText="Discord"
+              altText="Twitter"
             />
           </a>
         </div>
