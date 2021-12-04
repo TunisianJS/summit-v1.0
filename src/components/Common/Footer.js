@@ -24,7 +24,7 @@ const Footer = () => {
       <div className='articleDesc'>
         © {(new Date().getFullYear())} Tunisian JS Community. All rights reserved
       </div>
-      <div className='footerLogoWrapper'>
+      {/* <div className='footerLogoWrapper'>
         <div className='poweredLogo'>
           <svg xmlns="http://www.w3.org/2000/svg" className="logo" viewBox="0 0 726.17 141.25">
             <path
@@ -70,7 +70,7 @@ const Footer = () => {
             />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
