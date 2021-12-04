@@ -11,7 +11,7 @@ const Talks = props => {
         <div className='articleSubTitle'>Talks</div>
         <ul>
           {
-            talkDetailsPage.sort((a, bn => a.title > b.title ? 1 : -1)
+            talkDetailsPage.sort((a, b) => a.title > b.title ? 1 : -1)
               .map((talksList, index) => {
                 return (
                   <Fragment key={index}>
