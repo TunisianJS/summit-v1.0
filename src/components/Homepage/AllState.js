@@ -12,83 +12,86 @@ const nacer = require('../Common/images/nacer.jpg');
 
 const walid = require('../Common/images/valid.jpeg');
 
-// const speakersDetails = [
-//   {
-//     talkPageUrl: '/talks/in-mem-sub-pub-with-mufa/',
-//     speakersName: 'Abdennour Toumi',
-//     speakersImg: abdennour,
-//     speakersDesignation: (
-//       <span>
-//         In-mem sub/pub with Mufa,
-//         <br />
-//         Site Reliability Engineer at ELM
-//       </span>
-//     ),
-//   },
-//   {
-//     talkPageUrl: '/talks/nestjs-the-trendy-nodejs-framework/',
-//     speakersName: 'Aymen sellaouti',
-//     speakersImg: aymen,
-//     speakersDesignation: (
-//       <span>
-//         Nest.js the trendy Node.js Framework
-//         <br />
-//         Teacher at INSAT
-//       </span>
-//     ),
-//   },
-//   {
-//     talkPageUrl: '/talks/an-arabic-version-of-javascript/',
-//     speakersName: 'Burawi Ben Ammar',
-//     speakersImg: burawi,
-//     speakersDesignation: (
-//       <span>
-//         An Arabic version of Javascript. Why ?
-//         <br />
-//         Senior Full Stack Developer at Think-it
-//       </span>
-//     ),
-//   },
-//   {
-//     talkPageUrl: '/talks/enhanced-developer-experience-with-nx/',
-//     speakersName: 'Haykel Ben Jemia',
-//     speakersImg: haykel,
-//     speakersDesignation: (
-//       <span>
-//         Enhanced developer experience with Nx.
-//         <br />
-//         CTO at xTECH
-//       </span>
-//     ),
-//   },
-//   {
-//     talkPageUrl: '/talks/kubernetes-runtime-security-using-falco/',
-//     speakersName: 'Walid Dridi',
-//     speakersImg: walid,
-//     speakersDesignation: (
-//       <span>
-//         Kubernetes Runtime Security using Falco.
-//         <br />
-//         DevOps/SRE at Radio France
-//       </span>
-//     ),
-//   },
-//   {
-//     talkPageUrl: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
-//     speakersName: 'Nacer Nsiri',
-//     speakersImg: nacer,
-//     speakersDesignation: (
-//       <span>
-//         SOLID principles between theory and practice in JavaScript.
-//         <br />
-//         Senior FrontEnd Engineer at Oodrive
-//       </span>
-//     ),
-//   },
-//   /*
-
-//   */
-// ];
+const speakersDetails = [
+  {
+    talkPageUrl: '/talks/in-mem-sub-pub-with-mufa/',
+    speakersName: 'Abdennour Toumi',
+    speakersImg: abdennour,
+    speakerJob: 'Site Reliability Engineer at ELM',
+    speakersDesignation: (
+      <span>
+        In-mem sub/pub with Mufa,
+        <br />
+        Site Reliability Engineer at ELM
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
+    speakersName: 'Nacer Nsiri',
+    speakersImg: nacer,
+    speakerJob: 'Senior FrontEnd Engineer at Oodrive',
+    speakersDesignation: (
+      <span>
+        SOLID principles between theory and practice in JavaScript.
+        <br />
+        Senior FrontEnd Engineer at Oodrive
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/an-arabic-version-of-javascript/',
+    speakersName: 'Burawi Ben Ammar',
+    speakersImg: burawi,
+    speakerJob: 'Senior Full Stack Developer at Think-it',
+    speakersDesignation: (
+      <span>
+        An Arabic version of Javascript. Why ?
+        <br />
+        Senior Full Stack Developer at Think-it
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/kubernetes-runtime-security-using-falco/',
+    speakersName: 'Walid Dridi',
+    speakersImg: walid,
+    speakerJob: 'DevOps/SRE at Radio France',
+    speakersDesignation: (
+      <span>
+        Kubernetes Runtime Security using Falco.
+        <br />
+        DevOps/SRE at Radio France
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/enhanced-developer-experience-with-nx/',
+    speakersName: 'Haykel Ben Jemia',
+    speakersImg: haykel,
+    speakerJob: 'CTO at xTECH',
+    speakersDesignation: (
+      <span>
+        Enhanced developer experience with Nx.
+        <br />
+        CTO at xTECH
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/nestjs-the-trendy-nodejs-framework/',
+    speakersName: 'Aymen sellaouti',
+    speakersImg: aymen,
+    speakerJob: 'Teacher at INSAT',
+    speakersDesignation: (
+      <span>
+        Nest.js the trendy Node.js Framework
+        <br />
+        Teacher at INSAT
+      </span>
+    ),
+  },
+];
 
 const talkDetailsPage = [
   {
@@ -315,7 +318,6 @@ const talkDetailsPage = [
   },
 ];
 
-const speakersDetails = talkDetailsPage
 
 const scheduleDetailsOne = [
   {
