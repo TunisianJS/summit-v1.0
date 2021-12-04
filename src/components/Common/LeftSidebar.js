@@ -68,7 +68,7 @@ const LeftSidebar = ({ location }) => {
           <Link to="/#about">About</Link>
         </li>
       </ul>
-      <div className="leftSidebarFooterWrapper">
+      {/* <div className="leftSidebarFooterWrapper">
         <div className="poweredBrand">
           <svg xmlns="http://www.w3.org/2000/svg" className="logo" viewBox="0 0 726.17 141.25">
             <path
@@ -92,30 +92,30 @@ const LeftSidebar = ({ location }) => {
           </svg>
         </div>
         <div className="socialIconWrapper">
-          {/* <a href="https://discord.com/invite/" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.com/invite/" target="_blank" rel="noopener noreferrer">
             <IconHover
               baseImgSrc={discordLightMode}
               hoverImgSrc={discordHover}
               altText="Discord"
             />
-          </a> */}
-          <a href="https://www.linkedin.com/company/tunisian-javascript-community" target="_blank" rel="noopener noreferrer">
-            <IconHover
-              baseImgSrc={linkedinLightMode}
-              hoverImgSrc={linkedinHover}
-              altText="Linkedin"
-            />
           </a>
-          <a href="https://twitter.com/TunisisJs" target="_blank" rel="noopener noreferrer">
-            <IconHover
-              baseImgSrc={twitterLightMode}
-              hoverImgSrc={twitterHover}
-              altText="Twitter"
-            />
-          </a>
-        </div>
-      </div>
+      <a href="https://www.linkedin.com/company/tunisian-javascript-community" target="_blank" rel="noopener noreferrer">
+        <IconHover
+          baseImgSrc={linkedinLightMode}
+          hoverImgSrc={linkedinHover}
+          altText="Linkedin"
+        />
+      </a>
+      <a href="https://twitter.com/TunisisJs" target="_blank" rel="noopener noreferrer">
+        <IconHover
+          baseImgSrc={twitterLightMode}
+          hoverImgSrc={twitterHover}
+          altText="Twitter"
+        />
+      </a>
     </div>
+      </div > */}
+    </div >
   );
 };
 
