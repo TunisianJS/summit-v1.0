@@ -3,12 +3,6 @@ import { Link } from 'gatsby';
 import IconHover from './IconHover';
 import './Styles.scss';
 
-const discordDarkMode = require('./images/discord-dark-mode.svg');
-
-const linkedinDarkMode = require('./images/linkedin-dark-mode.svg');
-
-const twitterDarkMode = require('./images/twitter-dark-mode.svg');
-
 const discordLightMode = require('./images/discord-light-mode.svg');
 
 const linkedinLightMode = require('./images/linkedin-light-mode.svg');
@@ -21,7 +15,7 @@ const linkedinHover = require('./images/linkedin-hover.svg');
 
 const twitterHover = require('./images/twitter-hover.svg');
 
-const LeftSidebar = ({ isLightMode, location }) => {
+const LeftSidebar = ({ location }) => {
   const path = location.pathname;
 
   return (
@@ -100,21 +94,21 @@ const LeftSidebar = ({ isLightMode, location }) => {
         <div className="socialIconWrapper">
           <a href="https://discord.com/invite/" target="_blank" rel="noopener noreferrer">
             <IconHover
-              baseImgSrc={!isLightMode ? discordDarkMode : discordLightMode}
+              baseImgSrc={discordLightMode}
               hoverImgSrc={discordHover}
               altText="Discord"
             />
           </a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
             <IconHover
-              baseImgSrc={!isLightMode ? linkedinDarkMode : linkedinLightMode}
+              baseImgSrc={linkedinLightMode}
               hoverImgSrc={linkedinHover}
               altText="Discord"
             />
           </a>
           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
             <IconHover
-              baseImgSrc={!isLightMode ? twitterDarkMode : twitterLightMode}
+              baseImgSrc={twitterLightMode}
               hoverImgSrc={twitterHover}
               altText="Discord"
             />
