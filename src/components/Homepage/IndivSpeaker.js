@@ -17,8 +17,7 @@ const IndivSpeaker = ({ speakers }) => {
             </div>
             <div className='articleDesc fontBold500'>
               {/* {speakers.speakersDesignation} */}
-              {speakers.speakerJob} *1
-              {/* [should put the current job title here * 1] */}
+              {speakers.speakerJob}
             </div>
           </div>
           <div className='speakerArrow'>

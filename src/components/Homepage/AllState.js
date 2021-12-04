@@ -318,7 +318,6 @@ const talkDetailsPage = [
   },
 ];
 
-
 const scheduleDetailsOne = [
   {
     type: 'break',

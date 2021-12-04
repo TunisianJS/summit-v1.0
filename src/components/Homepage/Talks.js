@@ -1,9 +1,8 @@
-import React, {Fragment} from "react";
-import {Link} from 'gatsby';
+import React, { Fragment } from "react";
+import { Link } from 'gatsby';
 import '../Common/Styles.scss';
 import IndivTalk from './IndivTalk';
 import { talkDetailsPage } from '../Homepage/AllState.js'
-
 
 const Talks = props => {
   return (
@@ -12,23 +11,24 @@ const Talks = props => {
         <div className='articleSubTitle'>Talks</div>
         <ul>
           {
-            talkDetailsPage.map((talksList, index) => {
-              return (
-                <Fragment key={index}>
-                  {
-                    !talksList.isWorkshop ? (
-                      <Fragment>
-                        {
-                          index < 6  ? (
-                            <IndivTalk talksList={talksList} />
-                          ) : null
-                        }
-                      </Fragment>
-                    ) : null
-                  }
-                </Fragment>
-              )
-            })
+            talkDetailsPage.sort((a, bn => a.title > b.title ? 1 : -1)
+              .map((talksList, index) => {
+                return (
+                  <Fragment key={index}>
+                    {
+                      !talksList.isWorkshop ? (
+                        <Fragment>
+                          {
+                            index < 6 ? (
+                              <IndivTalk talksList={talksList} />
+                            ) : null
+                          }
+                        </Fragment>
+                      ) : null
+                    }
+                  </Fragment>
+                )
+              })
           }
         </ul>
         <div className='backBtnWrapper'>
