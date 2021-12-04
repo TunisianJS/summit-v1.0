@@ -106,7 +106,7 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '08:00 am -	08:30 am',
+    time: '06:20 pm -	07:40 pm',
     talkType: undefined,
     description: [
       {
@@ -143,7 +143,7 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '08:00 am -	08:30 am',
+    time: '07:45 pm -	09:05 pm',
     talkType: undefined,
     description: [
       {
@@ -180,7 +180,7 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '08:00 am -	08:30 am',
+    time: '07:45 pm -	9:05 pm',
     talkType: undefined,
     description: [
       {
@@ -217,7 +217,7 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '08:00 am -	08:30 am',
+    time: '06:20 pm -	07:40 pm',
     talkType: undefined,
     description: [
       {
@@ -254,7 +254,7 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '08:00 am -	08:30 am',
+    time: '09:10 pm -	10:30 pm',
     talkType: undefined,
     description: [
       {
@@ -291,7 +291,7 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '08:00 am -	08:30 am',
+    time: '09:10 pm -	10:30 pm',
     talkType: undefined,
     description: [
       {
