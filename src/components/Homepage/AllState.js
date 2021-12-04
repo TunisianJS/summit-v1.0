@@ -352,22 +352,40 @@ const scheduleDetailsTwo = [
     url: '/talks/an-arabic-version-of-javascript/',
     type: 'talk',
   },
-
+  // semah ghanmi
+  // {
+  //   url: '/talks/an-arabic-version-of-javascript/',
+  //   type: 'talk',
+  // },
 ];
 
 const scheduleDetailsThree = [
+  {
+    type: 'break',
+    title: 'Day 3 Begins',
+    time: '6:00 pm',
+  },
   // Azza Hamadani
   // Khaled Garbaya
   // Zied Unes
 ]
 
 const scheduleDetailsFour = [
+  {
+    type: 'break',
+    title: 'Day 4 Begins',
+    time: '6:00 pm',
+  },
   // Walid Dridi
   {
     url: '/talks/kubernetes-runtime-security-using-falco/',
     type: 'talk'
   },
   // Haythem Jerbi
+  // {
+  //   url: '/talks/xxx--xx-xx/',
+  //   type: 'talk'
+  // },
 ]
 
 export {
