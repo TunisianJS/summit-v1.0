@@ -89,7 +89,7 @@ const Schedule = props => {
       <div className='scheduleWrapper'>
         <div className='scheduleHeader'>
           <div className='articleSubTitle'>Schedule</div>
-          <div className='buttonWrapper'>
+          {/* <div className='buttonWrapper'>
             <button onClick={() => { setCurrentTab('talks'); setDayTab('dayOne') }} className={'commonBtn ' + ((currentTab === 'talks') ? 'darkRedBtn' : 'transparentBtn')}>
               {
                 !props.isLightMode ? (
@@ -109,7 +109,7 @@ const Schedule = props => {
               }
               Talks
             </button>
-          </div>
+          </div> */}
         </div>
         <div className='dateTab'>
           <button onClick={() => { setDayTab('dayOne'); }} className={'commonBtn ' + ((dayTab === 'dayOne') ? 'darkBlockBtn' : 'transparentBtn')}>11th Dec</button>
