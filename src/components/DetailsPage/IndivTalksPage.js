@@ -205,7 +205,7 @@ const IndivTalksPage = props => {
                             {speakers.speakersName}
                           </div>
                           <div className='articleDesc fontBold'>
-                            [should put the current job title here]
+                            {speakers.speakerJob}
                           </div>
                           {
                             speakers.speakersBio ? (
