@@ -5,8 +5,6 @@ import '../Common/Styles.scss';
 import IconHover from '../Common/IconHover';
 const star = require('../Common/images/star.svg');
 
-const copyDarkMode = require('../Common/images/copy-dark-mode.svg');
-
 const copyLightMode = require('../Common/images/copy-light-mode.svg');
 
 const copyHover = require('../Common/images/copy-hover.svg');
@@ -224,7 +222,7 @@ const IndivTalksPage = props => {
             <CopyToClipboard text={`https://summit.js-community.tn${props.currentDetailsPage.url}`} onCopy={onCopy}>
               <div className='shareIcon'>
                 <IconHover
-                  baseImgSrc={(!props.isLightMode) ? copyDarkMode : copyLightMode}
+                  baseImgSrc={copyLightMode}
                   hoverImgSrc={copyHover}
                   altText='Discord'
                 />
