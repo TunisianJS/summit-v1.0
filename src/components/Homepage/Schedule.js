@@ -1,17 +1,18 @@
-import React, { Fragment, useState } from "react";
-import { Link } from 'gatsby';
+import React, { Fragment, useState } from 'react';
 import Break from './Break';
 import IndivSchedule from './IndivSchedule';
 import '../Common/Styles.scss';
 import {
-  talkDetailsPage, scheduleDetailsOne, scheduleDetailsTwo
-} from '../Homepage/AllState.js'
-
+  talkDetailsPage,
+  scheduleDetailsOne,
+  scheduleDetailsTwo,
+  scheduleDetailsThree,
+  scheduleDetailsFour
+} from '../Homepage/AllState.js';
 
 const talksLight = require('../Common/images/talks-light.svg');
 
 const talksDark = require('../Common/images/talks-dark.svg');
-
 
 const Schedule = props => {
   const [currentTab, setCurrentTab] = useState('talks');
@@ -26,7 +27,7 @@ const Schedule = props => {
 
     return (
       <Fragment key={index}>
-        {shedule.type && shedule.type === "break" ? (
+        {shedule.type && shedule.type === 'break' ? (
           <Break breakDetails={shedule} />
         ) : (
           <IndivSchedule indivTalks={currentTalks} />
@@ -42,7 +43,7 @@ const Schedule = props => {
 
     return (
       <Fragment key={index}>
-        {shedule.type && shedule.type === "break" ? (
+        {shedule.type && shedule.type === 'break' ? (
           <Break breakDetails={shedule} />
         ) : (
           <IndivSchedule indivTalks={currentTalks} />
@@ -51,6 +52,37 @@ const Schedule = props => {
     );
   });
 
+  const dayThreeShedule = scheduleDetailsThree.map((shedule, index) => {
+    const currenttalksFilter = talkDetailsPage.filter(b => b.url === shedule.url);
+
+    const currentTalks = currenttalksFilter[0];
+
+    return (
+      <Fragment key={index}>
+        {shedule.type && shedule.type === 'break' ? (
+          <Break breakDetails={shedule} />
+        ) : (
+          <IndivSchedule indivTalks={currentTalks} />
+        )}
+      </Fragment>
+    );
+  });
+
+  const dayFourShedule = scheduleDetailsFour.map((shedule, index) => {
+    const currenttalksFilter = talkDetailsPage.filter(b => b.url === shedule.url);
+
+    const currentTalks = currenttalksFilter[0];
+
+    return (
+      <Fragment key={index}>
+        {shedule.type && shedule.type === 'break' ? (
+          <Break breakDetails={shedule} />
+        ) : (
+          <IndivSchedule indivTalks={currentTalks} />
+        )}
+      </Fragment>
+    );
+  });
 
   return (
     <div id='schedule' className={'sectionWrapper' + ((props.wdClass) ? ' wd80' : '')}>
@@ -86,6 +118,16 @@ const Schedule = props => {
               <button onClick={() => { setDayTab('dayTwo') }} className={'commonBtn ' + ((dayTab === 'dayTwo') ? 'darkBlockBtn' : 'transparentBtn')}>12th Dec</button>
             ) : null
           }
+          {
+            currentTab === 'talks' ? (
+              <button onClick={() => { setDayTab('dayThree') }} className={'commonBtn ' + ((dayTab === 'dayThree') ? 'darkBlockBtn' : 'transparentBtn')}>18th Dec</button>
+            ) : null
+          }
+          {
+            currentTab === 'talks' ? (
+              <button onClick={() => { setDayTab('dayFour') }} className={'commonBtn ' + ((dayTab === 'dayFour') ? 'darkBlockBtn' : 'transparentBtn')}>19th Dec</button>
+            ) : null
+          }
 
         </div>
         <ul className='scheduleListHeader scheduleListWrapper removeBorBottom'>
@@ -112,6 +154,12 @@ const Schedule = props => {
         </ul>
         <ul className={'scheduleListWrapper ' + ((dayTab === 'dayTwo' && currentTab === 'talks') ? '' : 'displayNone')}>
           {dayTwoShedule}
+        </ul>
+        <ul className={'scheduleListWrapper ' + ((dayTab === 'dayThree' && currentTab === 'talks') ? '' : 'displayNone')}>
+          {dayThreeShedule}
+        </ul>
+        <ul className={'scheduleListWrapper ' + ((dayTab === 'dayFour' && currentTab === 'talks') ? '' : 'displayNone')}>
+          {dayFourShedule}
         </ul>
       </div>
     </div>
