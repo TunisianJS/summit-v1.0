@@ -92,21 +92,21 @@ const LeftSidebar = ({ location }) => {
           </svg>
         </div>
         <div className="socialIconWrapper">
-          <a href="https://discord.com/invite/" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://discord.com/invite/" target="_blank" rel="noopener noreferrer">
             <IconHover
               baseImgSrc={discordLightMode}
               hoverImgSrc={discordHover}
               altText="Discord"
             />
-          </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          </a> */}
+          <a href="https://www.linkedin.com/company/tunisian-javascript-community" target="_blank" rel="noopener noreferrer">
             <IconHover
               baseImgSrc={linkedinLightMode}
               hoverImgSrc={linkedinHover}
               altText="Discord"
             />
           </a>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/TunisisJs" target="_blank" rel="noopener noreferrer">
             <IconHover
               baseImgSrc={twitterLightMode}
               hoverImgSrc={twitterHover}
