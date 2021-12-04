@@ -221,7 +221,7 @@ const IndivTalksPage = props => {
             {props.currentDetailsPage.isWorkshop ? 'Share this workshop' : 'Share this talk'}
           </div>
           <div className='shareIconWrapper'>
-            <CopyToClipboard text={`https://summit.js-community.tn/${props.currentDetailsPage.url}`} onCopy={onCopy}>
+            <CopyToClipboard text={`https://summit.js-community.tn${props.currentDetailsPage.url}`} onCopy={onCopy}>
               <div className='shareIcon'>
                 <IconHover
                   baseImgSrc={(!props.isLightMode) ? copyDarkMode : copyLightMode}
