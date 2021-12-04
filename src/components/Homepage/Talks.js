@@ -11,13 +11,7 @@ const Talks = (props) => {
         <div className="articleSubTitle">Talks</div>
         <ul>
           {talkDetailsPage
-            .sort((a, b) => {
-              const [nameOne] = a.speakersList.speakersName.split(' ');
-
-              const [nameTwo] = b.speakersList.speakersName.split(' ');
-
-              return nameOne > nameTwo ? -1 : 1;
-            })
+            .sort((a, b) => a.speakersList?.speakersName?.split(' ')[0] > b.speakersList?.speakersName?.split(' ')[0] ? 1 : -1)
             .map((talksList, index) => {
               return (
                 <Fragment key={index}>
