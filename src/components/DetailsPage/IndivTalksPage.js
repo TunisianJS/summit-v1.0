@@ -4,23 +4,15 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import '../Common/Styles.scss';
 import IconHover from '../Common/IconHover';
 const star = require('../Common/images/star.svg');
+
 const copyDarkMode = require('../Common/images/copy-dark-mode.svg');
-const whatsappDarkMode = require('../Common/images/whatsapp-dark-mode.svg');
-const linkedinDarkMode = require('../Common/images/linkedin-dark-mode.svg');
-const twitterDarkMode = require('../Common/images/twitter-dark-mode.svg');
 
 const copyLightMode = require('../Common/images/copy-light-mode.svg');
-const whatsappLightMode = require('../Common/images/whatsapp-light-mode.svg');
-const linkedinLightMode = require('../Common/images/linkedin-light-mode.svg');
-const twitterLightMode = require('../Common/images/twitter-light-mode.svg');
 
 const copyHover = require('../Common/images/copy-hover.svg');
-const whatsappHover = require('../Common/images/whatsapp-hover.svg');
-const linkedinHover = require('../Common/images/linkedin-hover.svg');
-const twitterHover = require('../Common/images/twitter-hover.svg');
-
 
 const lightBackArrow = require('../Common/images/back-arrow-light.svg');
+
 const darkBackArrow = require('../Common/images/back-arrow-dark.svg');
 
 const IndivTalksPage = props => {
@@ -29,6 +21,7 @@ const IndivTalksPage = props => {
     setIsCopiedToggle(true);
     setTimeout(() => setIsCopiedToggle(false), 3000);
   };
+
   const renderCopyIcon = () => {
     if (isCopied) {
       return (
@@ -228,7 +221,7 @@ const IndivTalksPage = props => {
             {props.currentDetailsPage.isWorkshop ? 'Share this workshop' : 'Share this talk'}
           </div>
           <div className='shareIconWrapper'>
-            <CopyToClipboard text={`https://js-community.tn/${props.currentDetailsPage.url}`} onCopy={onCopy}>
+            <CopyToClipboard text={`https://summit.js-community.tn/${props.currentDetailsPage.url}`} onCopy={onCopy}>
               <div className='shareIcon'>
                 <IconHover
                   baseImgSrc={(!props.isLightMode) ? copyDarkMode : copyLightMode}
@@ -238,44 +231,6 @@ const IndivTalksPage = props => {
                 {renderCopyIcon()}
               </div>
             </CopyToClipboard>
-            <a className='shareIcon'
-              href={
-                `https://wa.me/?text=https://js-community.tn/${props.currentDetailsPage.url}`
-              }
-              data-action="share/whatsapp/share"
-            >
-              <IconHover
-                baseImgSrc={(!props.isLightMode) ? whatsappDarkMode : whatsappLightMode}
-                hoverImgSrc={whatsappHover}
-                altText='Discord'
-              />
-            </a>
-            <a className='shareIcon'
-              href={
-                `https://twitter.com/intent/tweet?&text=${props.currentDetailsPage.title}&url=https://js-community.tn/${props.currentDetailsPage.url}`
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconHover
-                baseImgSrc={(!props.isLightMode) ? twitterDarkMode : twitterLightMode}
-                hoverImgSrc={twitterHover}
-                altText='Discord'
-              />
-            </a>
-            <a className='shareIcon'
-              href={
-                `http://www.linkedin.com/shareArticle?mini=true&url=https://js-community.tn/${props.currentDetailsPage.url}&title=${props.currentDetailsPage.title}&summary=${props.currentDetailsPage.title}&source=https://js-community.tn/${props.currentDetailsPage.url}`
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconHover
-                baseImgSrc={(!props.isLightMode) ? linkedinDarkMode : linkedinLightMode}
-                hoverImgSrc={linkedinHover}
-                altText='Discord'
-              />
-            </a>
           </div>
         </div>
         <div className='backBtnWrapper'>
