@@ -230,7 +230,7 @@ const talkDetailsPage = [
         speakersUrl: '/speakers/haykel-ben-jemia/',
         speakersName: 'Haykel Ben Jemia',
         speakersImg: haykel,
-        speakersBio: 'He wrote his first line of code at 15 years old using BASIC and never stopped writing code since then. He is still passionate about software development, more specifically developing full stack web applications using JavaScript and serverless technologies.',
+        speakersBio: 'He wrote his first line of code at 15 using BASIC and never stopped writing code since then. He is still passionate about software development, more specifically developing full stack web applications using JavaScript and serverless technologies.',
         speakerJob: 'CTO at xTECH',
         speakersDesignation: (
           <span>
