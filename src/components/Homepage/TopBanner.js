@@ -13,9 +13,9 @@ const TopBanner = () => {
       </div>
 
       <div className="buttonWrapper">
-        <Link to="">
+        <a href='https://forms.gle/k2wSfVWztcocTkA98' target='_blank' rel='noopener noreferrer'>
           <button className="commonBtn darkBtn">Register Now</button>
-        </Link>
+        </a>
       </div>
     </div>
   );
