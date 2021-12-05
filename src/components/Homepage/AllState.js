@@ -1,6 +1,6 @@
 import React from 'react';
 
-const abdennour = require('../Common/images/abdennour.jpg');
+const abdennour = require('../Common/images/abdennour.png');
 
 const aymen = require('../Common/images/aymen.jpg');
 
