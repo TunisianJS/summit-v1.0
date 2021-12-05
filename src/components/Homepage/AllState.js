@@ -80,7 +80,7 @@ const speakersDetails = [
   },
   {
     talkPageUrl: '/talks/nestjs-the-trendy-nodejs-framework/',
-    speakersName: 'Aymen sellaouti',
+    speakersName: 'Aymen Sellaouti',
     speakersImg: aymen,
     speakerJob: 'Teacher at INSAT',
     speakersDesignation: (
@@ -120,7 +120,7 @@ const talkDetailsPage = [
         speakersName: 'Abdennour Toumi',
         speakersImg: abdennour,
         speakerJob: 'Site Reliability Engineer at ELM',
-        speakersBio: '-',
+        speakersBio: 'He is a practical Architect with SRE focus, cloud-native by design, software engineering as background, the mastermind behind many opensource tools, An active contributor at Stack Overflow & Top 2 at country 🇹🇳 level and certified Red Hat Architect level 4, AWS Solutions Architect Pro., CKA/CKAD/CKS and more.',
         speakersDesignation: (
           <span>
             In-mem sub/pub with Mufa,
@@ -154,7 +154,7 @@ const talkDetailsPage = [
     speakersList: [
       {
         speakersUrl: '/speakers/aymen-sellaouti/',
-        speakersName: 'Aymen sellaouti',
+        speakersName: 'Aymen Sellaouti',
         speakersImg: aymen,
         speakerJob: 'Teacher at INSAT',
         speakersBio: 'He has a Ph.D. in Computer Science since January 2014 from the University of Strasbourg and the Faculty of Sciences of Tunis. He has been teaching at INSAT since 2013. Also, He is a consultant, doing professional training for 4 years on Symfony Angular and Nest.js and a content creator, co-creator of the Techwall YT channel. He coached the INSAT problem-solving teams where they won the last 4 TCPCs by participating in the ACPC and being the first Tunisian team to participate in the ICPC.',
@@ -230,7 +230,7 @@ const talkDetailsPage = [
         speakersUrl: '/speakers/haykel-ben-jemia/',
         speakersName: 'Haykel Ben Jemia',
         speakersImg: haykel,
-        speakersBio: 'He wrote his first line of code at 15 years old using BASIC and never stopped writing code since then. He is still passionate about software development, more specifically developing full stack web applications using JavaScript and serverless technologies.',
+        speakersBio: 'He wrote his first line of code at 15 using BASIC and never stopped writing code since then. He is still passionate about software development, more specifically developing full stack web applications using JavaScript and serverless technologies.',
         speakerJob: 'CTO at xTECH',
         speakersDesignation: (
           <span>
