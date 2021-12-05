@@ -80,7 +80,7 @@ const speakersDetails = [
   },
   {
     talkPageUrl: '/talks/nestjs-the-trendy-nodejs-framework/',
-    speakersName: 'Aymen sellaouti',
+    speakersName: 'Aymen Sellaouti',
     speakersImg: aymen,
     speakerJob: 'Teacher at INSAT',
     speakersDesignation: (
@@ -154,7 +154,7 @@ const talkDetailsPage = [
     speakersList: [
       {
         speakersUrl: '/speakers/aymen-sellaouti/',
-        speakersName: 'Aymen sellaouti',
+        speakersName: 'Aymen Sellaouti',
         speakersImg: aymen,
         speakerJob: 'Teacher at INSAT',
         speakersBio: 'He has a Ph.D. in Computer Science since January 2014 from the University of Strasbourg and the Faculty of Sciences of Tunis. He has been teaching at INSAT since 2013. Also, He is a consultant, doing professional training for 4 years on Symfony Angular and Nest.js and a content creator, co-creator of the Techwall YT channel. He coached the INSAT problem-solving teams where they won the last 4 TCPCs by participating in the ACPC and being the first Tunisian team to participate in the ICPC.',
