@@ -17,12 +17,12 @@ const speakersDetails = [
     talkPageUrl: '/talks/in-mem-sub-pub-with-mufa/',
     speakersName: 'Abdennour Toumi',
     speakersImg: abdennour,
-    speakerJob: 'Site Reliability Engineer at ELM',
+    speakerJob: 'Architect at ELM',
     speakersDesignation: (
       <span>
         In-mem sub/pub with Mufa,
         <br />
-        Site Reliability Engineer at ELM
+        Architect at ELM
       </span>
     ),
   },
@@ -119,13 +119,13 @@ const talkDetailsPage = [
         speakersUrl: '/speakers/abdennour-toumi/',
         speakersName: 'Abdennour Toumi',
         speakersImg: abdennour,
-        speakerJob: 'Site Reliability Engineer at ELM',
+        speakerJob: 'Architect at ELM',
         speakersBio: 'He is a practical Architect with SRE focus, cloud-native by design, software engineering as background, the mastermind behind many opensource tools, An active contributor at Stack Overflow & Top 2 at country 🇹🇳 level and certified Red Hat Architect level 4, AWS Solutions Architect Pro., CKA/CKAD/CKS and more.',
         speakersDesignation: (
           <span>
             In-mem sub/pub with Mufa,
             <br />
-            Site Reliability Engineer at ELM
+            Architect at ELM
           </span>
         ),
       },
