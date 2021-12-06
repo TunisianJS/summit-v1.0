@@ -110,7 +110,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: 'Coming Soon',
+        desc: '06:20 pm -	07:40 pm',
       },
     ],
     multipleSpeakers: 'Speakers',

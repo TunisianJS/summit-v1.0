@@ -25,7 +25,7 @@ export function SEO({ description, lang, metaImg, title, canonicalLink }) {
     `
   );
 
-  const metaDescription = description || site.siteMetadata.description;
+  // const metaDescription = description || site.siteMetadata.description;
 
   return (
     <Helmet>
