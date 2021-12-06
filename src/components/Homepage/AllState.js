@@ -106,11 +106,11 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '06:20 pm -	07:40 pm',
+    time: ' 06:20 pm -	07:40 pm',
     talkType: undefined,
     description: [
       {
-        desc: '06:20 pm -	07:40 pm',
+        desc: '11/12/2021 from 06:20 pm to 07:40 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
