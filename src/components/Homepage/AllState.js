@@ -147,7 +147,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: 'Coming Soon',
+        desc: '11/12/2021 from 07:45 pm to 09:05 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -184,7 +184,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: 'Coming Soon',
+        desc: '12/12/2021 from 07:45 pm to 09:05 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -221,7 +221,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: 'Coming Soon',
+        desc: '12/12/2021 from 06:20 pm to 07:40 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -258,7 +258,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: 'Coming Soon',
+        desc: '19/12/2021 from 09:10 pm to 10:30 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -295,7 +295,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: 'Coming Soon',
+        desc: '11/12/2021 from 09:10 pm to 10:30 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
