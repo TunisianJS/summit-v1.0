@@ -12,7 +12,8 @@ const talkDetailsPage = [
   '/talks/enhanced-developer-experience-with-nx/',
   '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
   '/talks/kubernetes-runtime-security-using-falco/',
-  '/talks/Lessons-learned-from-a-functional-language/'
+  '/talks/functional-patterns-with-typescript/',
+  '/talks/lessons-learned-from-a-functional-language/'
 ];
 
 

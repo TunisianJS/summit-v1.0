@@ -12,6 +12,8 @@ const nacer = require('../Common/images/nacer.jpg');
 
 const sameh = require('../Common/images/sameh.jpg');
 
+const zied = require('../Common/images/zied.jpg');
+
 const walid = require('../Common/images/valid.jpeg');
 
 const speakersDetails = [
@@ -94,7 +96,7 @@ const speakersDetails = [
     ),
   },
   {
-    talkPageUrl: '/talks/Lessons-learned-from-a-functional-language/',
+    talkPageUrl: '/talks/lessons-learned-from-a-functional-language/',
     speakersName: 'Sameh Ghanmi',
     speakersImg: sameh,
     speakerJob: 'FrontEnd Engineer at Mirakl',
@@ -103,6 +105,19 @@ const speakersDetails = [
         Lessons learned from a functional language.
         <br />
         FrontEnd Engineer at Mirakl
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/functional-patterns-with-typescript/',
+    speakersName: 'Zied Younes',
+    speakersImg: zied,
+    speakerJob: 'CTO at Craft Foundry',
+    speakersDesignation: (
+      <span>
+        Functional Patterns with Typescript.
+        <br />
+        CTO at Craft Foundry
       </span>
     ),
   },
@@ -332,7 +347,7 @@ const talkDetailsPage = [
     ],
   },
   {
-    url: '/talks/Lessons-learned-from-a-functional-language/',
+    url: '/talks/lessons-learned-from-a-functional-language/',
     metaTags: {
       title: 'Lessons learned from a functional language.',
       canonicalUrl: '',
@@ -363,6 +378,43 @@ const talkDetailsPage = [
             Lessons learned from a functional language.
             <br />
             FrontEnd Engineer at Mirakl
+          </span>
+        ),
+      },
+    ],
+  },
+  {
+    url: '/talks/functional-patterns-with-typescript/',
+    metaTags: {
+      title: 'Functional Patterns with Typescript.',
+      canonicalUrl: '',
+      description: 'Coming Soon',
+      metaImg: '',
+    },
+    title: 'Functional Patterns with Typescript.',
+    speakersTitle: 'About the speakers',
+    backLink: '/talks/',
+    language: 'Arabic',
+    time: '09:10 pm -	10:30 pm',
+    talkType: undefined,
+    description: [
+      {
+        desc: '18/12/2021 from 09:10 pm to 10:30 pm',
+      },
+    ],
+    multipleSpeakers: 'Speakers',
+    speakersList: [
+      {
+        speakersUrl: '/speakers/zied-younes/',
+        speakersName: 'Zied Younes',
+        speakersImg: zied,
+        speakersBio: 'He is a Software Developer who spent a long time coding GIS, logistics, and transportation solutions. He had written his very first line of code at the age of 6, in BASIC on an MSX Sakhr AX-170. Nowadays, he codes mainly with Typescript, Python, and Go-lang. He is very much interested in writing more human-friendly code and understanding the way people express themselves and communicate through code.',
+        speakerJob: 'CTO at Craft Foundry',
+        speakersDesignation: (
+          <span>
+            Functional Patterns with Typescript.
+            <br />
+            CTO at Craft Foundry
           </span>
         ),
       },
@@ -405,7 +457,7 @@ const scheduleDetailsTwo = [
     type: 'talk',
   },
   {
-    url: '/talks/Lessons-learned-from-a-functional-language/',
+    url: '/talks/lessons-learned-from-a-functional-language/',
     type: 'talk',
   },
 ];
@@ -416,9 +468,12 @@ const scheduleDetailsThree = [
     title: 'Day 3 Begins',
     time: '6:00 pm',
   },
-  // Azza Hamadani
   // Khaled Garbaya
-  // Zied Unes
+  // Haythem Jerbi
+  {
+    url: '/talks/functional-patterns-with-typescript/',
+    type: 'talk'
+  },
 ]
 
 const scheduleDetailsFour = [
@@ -432,11 +487,6 @@ const scheduleDetailsFour = [
     url: '/talks/kubernetes-runtime-security-using-falco/',
     type: 'talk'
   },
-  // Haythem Jerbi
-  // {
-  //   url: '/talks/xxx--xx-xx/',
-  //   type: 'talk'
-  // },
 ]
 
 export {
