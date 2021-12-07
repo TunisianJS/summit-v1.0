@@ -10,6 +10,8 @@ const haykel = require('../Common/images/haykel.jpg');
 
 const nacer = require('../Common/images/nacer.jpg');
 
+const sameh = require('../Common/images/sameh.jpg');
+
 const walid = require('../Common/images/valid.jpeg');
 
 const speakersDetails = [
@@ -88,6 +90,19 @@ const speakersDetails = [
         Nest.js the trendy Node.js Framework
         <br />
         Teacher at INSAT
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/Lessons-learned-from-a-functional-language/',
+    speakersName: 'Sameh Ghanmi',
+    speakersImg: sameh,
+    speakerJob: 'FrontEnd Engineer at Mirakl',
+    speakersDesignation: (
+      <span>
+        Lessons learned from a functional language.
+        <br />
+        FrontEnd Engineer at Mirakl
       </span>
     ),
   },
@@ -316,6 +331,43 @@ const talkDetailsPage = [
       },
     ],
   },
+  {
+    url: '/talks/Lessons-learned-from-a-functional-language/',
+    metaTags: {
+      title: 'Lessons learned from a functional language.',
+      canonicalUrl: '',
+      description: 'Coming Soon',
+      metaImg: '',
+    },
+    title: 'Lessons learned from a functional language.',
+    speakersTitle: 'About the speakers',
+    backLink: '/talks/',
+    language: 'Arabic',
+    time: '09:10 pm -	10:30 pm',
+    talkType: undefined,
+    description: [
+      {
+        desc: '12/12/2021 from 09:10 pm to 10:30 pm',
+      },
+    ],
+    multipleSpeakers: 'Speakers',
+    speakersList: [
+      {
+        speakersUrl: '/speakers/sameh-ghanmi/',
+        speakersName: 'Sameh Ghanmi',
+        speakersImg: sameh,
+        speakersBio: 'He is a seasoned Javascript developer with diverse experiences and a passion for learning and sharing.',
+        speakerJob: 'FrontEnd Engineer at Mirakl',
+        speakersDesignation: (
+          <span>
+            Lessons learned from a functional language.
+            <br />
+            FrontEnd Engineer at Mirakl
+          </span>
+        ),
+      },
+    ],
+  },
 ];
 
 const scheduleDetailsOne = [
@@ -352,11 +404,10 @@ const scheduleDetailsTwo = [
     url: '/talks/an-arabic-version-of-javascript/',
     type: 'talk',
   },
-  // semah ghanmi
-  // {
-  //   url: '/talks/an-arabic-version-of-javascript/',
-  //   type: 'talk',
-  // },
+  {
+    url: '/talks/Lessons-learned-from-a-functional-language/',
+    type: 'talk',
+  },
 ];
 
 const scheduleDetailsThree = [
