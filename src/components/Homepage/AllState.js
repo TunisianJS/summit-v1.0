@@ -14,6 +14,8 @@ const sameh = require('../Common/images/sameh.jpg');
 
 const zied = require('../Common/images/zied.jpg');
 
+const khaled = require('../Common/images/khaled.jpg');
+
 const walid = require('../Common/images/valid.jpeg');
 
 const speakersDetails = [
@@ -118,6 +120,19 @@ const speakersDetails = [
         Functional Patterns with Typescript.
         <br />
         CTO at Craft Foundry
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/developer-friendly-apis-using-es6-proxies/',
+    speakersName: 'Khaled Garbaya',
+    speakersImg: khaled,
+    speakerJob: 'Engineering Manager at Gatsby',
+    speakersDesignation: (
+      <span>
+        Developer friendly APIs using ES6 Proxies.
+        <br />
+        Engineering Manager at Gatsby
       </span>
     ),
   },
@@ -420,6 +435,43 @@ const talkDetailsPage = [
       },
     ],
   },
+  {
+    url: '/talks/developer-friendly-apis-using-es6-proxies/',
+    metaTags: {
+      title: 'Developer friendly APIs using ES6 Proxies.',
+      canonicalUrl: '',
+      description: 'Coming Soon',
+      metaImg: '',
+    },
+    title: 'Developer friendly APIs using ES6 Proxies.',
+    speakersTitle: 'About the speakers',
+    backLink: '/talks/',
+    language: 'Arabic',
+    time: '06:20 pm -	07:40 pm',
+    talkType: undefined,
+    description: [
+      {
+        desc: '18/12/2021 from 06:20 pm to 07:40 pm',
+      },
+    ],
+    multipleSpeakers: 'Speakers',
+    speakersList: [
+      {
+        speakersUrl: '/speakers/khaled-garbaya/',
+        speakersName: 'Khaled Garbaya',
+        speakersImg: khaled,
+        speakersBio: 'He has worked with web technologies for over 12 years. He has always been an early adopter of new and exciting web technologies like Gatsby, eleventy, and blitz.js. He works on a variety of projects with different frameworks and environments, not only on the frontend and browsers but also on the server-side, command-line tools, and other environments capable of running JavaScript. He loves to share his knowledge through e-books and video courses.',
+        speakerJob: 'Engineering Manager at Gatsby',
+        speakersDesignation: (
+          <span>
+            Developer friendly APIs using ES6 Proxies.
+            <br />
+            Engineering Manager at Gatsby
+          </span>
+        ),
+      },
+    ],
+  },
 ];
 
 const scheduleDetailsOne = [
@@ -468,7 +520,10 @@ const scheduleDetailsThree = [
     title: 'Day 3 Begins',
     time: '6:00 pm',
   },
-  // Khaled Garbaya
+  {
+    url: '/talks/developer-friendly-apis-using-es6-proxies/',
+    type: 'talk'
+  },
   // Haythem Jerbi
   {
     url: '/talks/functional-patterns-with-typescript/',

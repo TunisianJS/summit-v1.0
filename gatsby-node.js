@@ -13,6 +13,7 @@ const talkDetailsPage = [
   '/talks/solid-principles-between-theory-and-practice-in-javaScript/',
   '/talks/kubernetes-runtime-security-using-falco/',
   '/talks/functional-patterns-with-typescript/',
+  '/talks/developer-friendly-apis-using-es6-proxies/',
   '/talks/lessons-learned-from-a-functional-language/'
 ];
 
