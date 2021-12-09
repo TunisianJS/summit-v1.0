@@ -157,12 +157,12 @@ const speakersDetails = [
     talkPageUrl: '/talks/javascript-runtimes-node-vs-deno/',
     speakersName: 'Ahmed Bessrour',
     speakersImg: ahmed,
-    speakerJob: 'Senior Full Stack JS Developer at xxxx',
+    speakerJob: 'Senior Full Stack JS Developer at AROLLA',
     speakersDesignation: (
       <span>
         JavaScript runtimes: NODE vs DENO
         <br />
-        Senior Full Stack JS Developer at xxxx
+        Senior Full Stack JS Developer at AROLLA
       </span>
     ),
   },
@@ -565,12 +565,12 @@ const talkDetailsPage = [
         speakersName: 'Ahmed Bessrour',
         speakersImg: ahmed,
         speakersBio: 'He is a Software Craftsman.',
-        speakerJob: 'Senior Full Stack JS Developer at xxxx',
+        speakerJob: 'Senior Full Stack JS Developer at AROLLA',
         speakersDesignation: (
           <span>
             JavaScript runtimes: NODE vs DENO
             <br />
-            Senior Full Stack JS Developer at xxxx
+            Senior Full Stack JS Developer at AROLLA
           </span>
         ),
       },
