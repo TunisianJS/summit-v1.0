@@ -185,7 +185,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '11/12/2021 from 06:20 pm to 07:40 pm',
+        desc: '11/12/2021 from 06:20 pm to 07:40 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -222,7 +222,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '11/12/2021 from 07:45 pm to 09:05 pm',
+        desc: '11/12/2021 from 07:45 pm to 09:05 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -259,7 +259,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '12/12/2021 from 07:45 pm to 09:05 pm',
+        desc: '12/12/2021 from 07:45 pm to 09:05 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -296,7 +296,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '12/12/2021 from 06:20 pm to 07:40 pm',
+        desc: '12/12/2021 from 06:20 pm to 07:40 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -333,7 +333,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '19/12/2021 from 07:45 pm to 09:05 pm',
+        desc: '19/12/2021 from 07:45 pm to 09:05 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -370,7 +370,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '11/12/2021 from 09:10 pm to 10:30 pm',
+        desc: '11/12/2021 from 09:10 pm to 10:30 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -407,7 +407,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '12/12/2021 from 09:10 pm to 10:30 pm',
+        desc: '12/12/2021 from 09:10 pm to 10:30 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -444,7 +444,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '18/12/2021 from 09:10 pm to 10:30 pm',
+        desc: '18/12/2021 from 09:10 pm to 10:30 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -481,7 +481,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '18/12/2021 from 06:20 pm to 07:40 pm',
+        desc: '18/12/2021 from 06:20 pm to 07:40 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -518,7 +518,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '18/12/2021 from 07:45 pm to 09:05 pm',
+        desc: '18/12/2021 from 07:45 pm to 09:05 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -555,7 +555,7 @@ const talkDetailsPage = [
     talkType: undefined,
     description: [
       {
-        desc: '19/12/2021 from 09:10 pm to 10:30 pm',
+        desc: '19/12/2021 from 09:10 pm to 10:30 pm (Tunisia Time Zone)',
       },
     ],
     multipleSpeakers: 'Speakers',
