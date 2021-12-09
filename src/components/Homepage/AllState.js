@@ -564,7 +564,7 @@ const talkDetailsPage = [
         speakersUrl: '/speakers/ahmed-bessrour/',
         speakersName: 'Ahmed Bessrour',
         speakersImg: ahmed,
-        speakersBio: 'He is a Software Craftsman.',
+        speakersBio: 'He is a software craftsman with experience of 7 years.',
         speakerJob: 'Senior Full Stack JS Developer at AROLLA',
         speakersDesignation: (
           <span>
