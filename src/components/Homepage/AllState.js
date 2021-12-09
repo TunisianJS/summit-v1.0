@@ -18,6 +18,8 @@ const khaled = require('../Common/images/khaled.jpg');
 
 const haythem = require('../Common/images/haythem.png');
 
+const ahmed = require('../Common/images/ahmed.jpeg');
+
 const walid = require('../Common/images/valid.jpeg');
 
 const speakersDetails = [
@@ -148,6 +150,19 @@ const speakersDetails = [
         Understand and perform SQL Injection Attacks.
         <br />
         Network Engineering Consultant and Trainer at TEK-UP
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/javascript-runtimes-node-vs-deno/',
+    speakersName: 'Ahmed Bessrour',
+    speakersImg: ahmed,
+    speakerJob: 'Senior Full Stack JS Developer at xxxx',
+    speakersDesignation: (
+      <span>
+        JavaScript runtimes: NODE vs DENO
+        <br />
+        Senior Full Stack JS Developer at xxxx
       </span>
     ),
   },
@@ -314,11 +329,11 @@ const talkDetailsPage = [
     speakersTitle: 'About the speakers',
     backLink: '/talks/',
     language: 'Arabic',
-    time: '09:10 pm -	10:30 pm',
+    time: '07:45 pm -	09:05 pm',
     talkType: undefined,
     description: [
       {
-        desc: '19/12/2021 from 09:10 pm to 10:30 pm',
+        desc: '19/12/2021 from 07:45 pm to 09:05 pm',
       },
     ],
     multipleSpeakers: 'Speakers',
@@ -509,7 +524,7 @@ const talkDetailsPage = [
     multipleSpeakers: 'Speakers',
     speakersList: [
       {
-        speakersUrl: '/speakers/khaled-garbaya/',
+        speakersUrl: '/speakers/haythem-jerbi/',
         speakersName: 'Haythem Jerbi',
         speakersImg: haythem,
         speakersBio: 'He is a network engineer with a graduate degree and a passion for system and network administration and security. He has 3 years of experience as a consultant and trainer, delivering training to several enterprises like TEK-UP and SIMOP. He has also participated in many national and international prestigious competitions like the Huawei ICT competition and TITC (Tekonsult International Telecommunications Contest).',
@@ -519,6 +534,43 @@ const talkDetailsPage = [
             Understand and perform SQL Injection Attacks.
             <br />
             Network Engineering Consultant and Trainer at TEK-UP
+          </span>
+        ),
+      },
+    ],
+  },
+  {
+    url: '/talks/javascript-runtimes-node-vs-deno/',
+    metaTags: {
+      title: 'JavaScript runtimes: NODE vs DENO',
+      canonicalUrl: '',
+      description: 'Coming Soon',
+      metaImg: '',
+    },
+    title: 'JavaScript runtimes: NODE vs DENO',
+    speakersTitle: 'About the speakers',
+    backLink: '/talks/',
+    language: 'Arabic',
+    time: '09:10 pm -	10:30 pm',
+    talkType: undefined,
+    description: [
+      {
+        desc: '19/12/2021 from 09:10 pm to 10:30 pm',
+      },
+    ],
+    multipleSpeakers: 'Speakers',
+    speakersList: [
+      {
+        speakersUrl: '/speakers/ahmed-bessrour/',
+        speakersName: 'Ahmed Bessrour',
+        speakersImg: ahmed,
+        speakersBio: 'He is a Software Craftsman.',
+        speakerJob: 'Senior Full Stack JS Developer at xxxx',
+        speakersDesignation: (
+          <span>
+            JavaScript runtimes: NODE vs DENO
+            <br />
+            Senior Full Stack JS Developer at xxxx
           </span>
         ),
       },
@@ -596,6 +648,10 @@ const scheduleDetailsFour = [
     url: '/talks/kubernetes-runtime-security-using-falco/',
     type: 'talk'
   },
+  {
+    url: '/talks/javascript-runtimes-node-vs-deno/',
+    type: 'talk'
+  }
 ]
 
 export {

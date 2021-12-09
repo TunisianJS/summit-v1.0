@@ -15,7 +15,8 @@ const talkDetailsPage = [
   '/talks/functional-patterns-with-typescript/',
   '/talks/developer-friendly-apis-using-es6-proxies/',
   '/talks/lessons-learned-from-a-functional-language/',
-  '/talks/understand-and-perform-sql-injection-attacks/'
+  '/talks/understand-and-perform-sql-injection-attacks/',
+  '/talks/javascript-runtimes-node-vs-deno/'
 ];
 
 
