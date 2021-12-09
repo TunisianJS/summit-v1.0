@@ -16,6 +16,8 @@ const zied = require('../Common/images/zied.jpg');
 
 const khaled = require('../Common/images/khaled.jpg');
 
+const haythem = require('../Common/images/haythem.png');
+
 const walid = require('../Common/images/valid.jpeg');
 
 const speakersDetails = [
@@ -133,6 +135,19 @@ const speakersDetails = [
         Developer friendly APIs using ES6 Proxies.
         <br />
         Engineering Manager at Gatsby
+      </span>
+    ),
+  },
+  {
+    talkPageUrl: '/talks/understand-and-perform-sql-injection-attacks/',
+    speakersName: 'Haythem Jerbi',
+    speakersImg: haythem,
+    speakerJob: 'Network Engineering Consultant and Trainer at TEK-UP',
+    speakersDesignation: (
+      <span>
+        Understand and perform SQL Injection Attacks.
+        <br />
+        Network Engineering Consultant and Trainer at TEK-UP
       </span>
     ),
   },
@@ -472,6 +487,43 @@ const talkDetailsPage = [
       },
     ],
   },
+  {
+    url: '/talks/understand-and-perform-sql-injection-attacks/',
+    metaTags: {
+      title: 'Understand and perform SQL Injection Attacks.',
+      canonicalUrl: '',
+      description: 'Coming Soon',
+      metaImg: '',
+    },
+    title: 'Understand and perform SQL Injection Attacks.',
+    speakersTitle: 'About the speakers',
+    backLink: '/talks/',
+    language: 'Arabic',
+    time: '07:45 pm -	09:05 pm',
+    talkType: undefined,
+    description: [
+      {
+        desc: '18/12/2021 from 07:45 pm to 09:05 pm',
+      },
+    ],
+    multipleSpeakers: 'Speakers',
+    speakersList: [
+      {
+        speakersUrl: '/speakers/khaled-garbaya/',
+        speakersName: 'Haythem Jerbi',
+        speakersImg: haythem,
+        speakersBio: 'He is a network engineer with a graduate degree and a passion for system and network administration and security. He has 3 years of experience as a consultant and trainer, delivering training to several enterprises like TEK-UP and SIMOP. He has also participated in many national and international prestigious competitions like the Huawei ICT competition and TITC (Tekonsult International Telecommunications Contest).',
+        speakerJob: 'Network Engineering Consultant and Trainer at TEK-UP',
+        speakersDesignation: (
+          <span>
+            Understand and perform SQL Injection Attacks.
+            <br />
+            Network Engineering Consultant and Trainer at TEK-UP
+          </span>
+        ),
+      },
+    ],
+  },
 ];
 
 const scheduleDetailsOne = [
@@ -524,7 +576,10 @@ const scheduleDetailsThree = [
     url: '/talks/developer-friendly-apis-using-es6-proxies/',
     type: 'talk'
   },
-  // Haythem Jerbi
+  {
+    url: '/talks/understand-and-perform-sql-injection-attacks/',
+    type: 'talk'
+  },
   {
     url: '/talks/functional-patterns-with-typescript/',
     type: 'talk'
@@ -537,7 +592,6 @@ const scheduleDetailsFour = [
     title: 'Day 4 Begins',
     time: '6:00 pm',
   },
-  // Walid Dridi
   {
     url: '/talks/kubernetes-runtime-security-using-falco/',
     type: 'talk'
