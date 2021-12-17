@@ -576,6 +576,43 @@ const talkDetailsPage = [
       },
     ],
   },
+  {
+    url: '/talks/cloud-native-transformation-for-frontend-apps/',
+    metaTags: {
+      title: 'Cloud Native Transformation for Frontend Apps',
+      canonicalUrl: '',
+      description: 'Coming Soon',
+      metaImg: '',
+    },
+    title: 'Cloud Native Transformation for Frontend Apps',
+    speakersTitle: 'About the speakers',
+    backLink: '/talks/',
+    language: 'Arabic',
+    time: ' 06:20 pm -	07:40 pm',
+    talkType: undefined,
+    description: [
+      {
+        desc: '18/12/2021 from 06:20 pm to 07:40 pm (Tunisia Time Zone)',
+      },
+    ],
+    multipleSpeakers: 'Speakers',
+    speakersList: [
+      {
+        speakersUrl: '/speakers/abdennour-toumi/',
+        speakersName: 'Abdennour Toumi',
+        speakersImg: abdennour,
+        speakerJob: 'Architect at ELM',
+        speakersBio: 'He is a practical Architect with SRE focus, cloud-native by design, software engineering as background, the mastermind behind many opensource tools, An active contributor at Stack Overflow & Top 2 at country 🇹🇳 level, Owner of \'kubernetes.tn\' and certified Red Hat Architect level 4, AWS Solutions Architect Pro., CKA/CKAD/CKS and more.',
+        speakersDesignation: (
+          <span>
+            Cloud Native Transformation for Frontend Apps,
+            <br />
+            Architect at ELM
+          </span>
+        ),
+      },
+    ],
+  },
 ];
 
 const scheduleDetailsOne = [
@@ -643,6 +680,10 @@ const scheduleDetailsFour = [
     type: 'break',
     title: 'Day 4 Begins',
     time: '6:00 pm',
+  },
+  {
+    url: '/talks/cloud-native-transformation-for-frontend-apps/',
+    type: 'talk'
   },
   {
     url: '/talks/kubernetes-runtime-security-using-falco/',
